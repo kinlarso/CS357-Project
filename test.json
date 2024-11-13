@@ -1,0 +1,54 @@
+{ 
+    "states": [ 
+        {
+            "state":"q1",
+            "transitions": [ 
+                {
+                    "read":"ε",
+                    "pop":"ε",
+                    "push":"$",
+                    "dest":"q2"
+                }] 
+        }, 
+        {
+            "state":"q2",
+            "transitions": [ 
+                {
+                    "read":"0",
+                    "pop":"ε",
+                    "push":"0",
+                    "dest":"q2"
+                }, 
+                {
+                    "read":"1",
+                    "pop":"0",
+                    "push":"ε",
+                    "dest":"q3"
+                }]
+        }, 
+        {"state":"q3",
+        "transitions":[ 
+            {
+                "read":"1",
+                "pop":"0",
+                "push":" ε",
+                "dest":"q3"
+            }, 
+            {
+                "read":"ε",
+                "pop":"$",
+                "push":" ε",
+                "dest":"q4"
+            }] 
+        }, 
+        {
+            "state":"q4",
+            "transitions":[]
+        } 
+    ], 
+    "start_state":"q1", 
+    "accept_states":[ 
+        {"state":"q1"}, 
+        {"state":"q4"} 
+    ] 
+} 
