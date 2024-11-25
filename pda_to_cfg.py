@@ -9,9 +9,12 @@
 import json
 import sys
 
-#################
-# checkPDARec -    #
-#################
+########################################################################################
+# checkPDARec                                                                          #
+# Recursive function to check if PDA has a connection from start state to accept state #
+# Arguments: data - input PDA in json format                                           #
+#            dest - destination of the currently examined transition                   #
+########################################################################################
 def checkPDARec(data, dest):
     for _states in data['states']:
         # find destination state
@@ -34,9 +37,12 @@ def checkPDARec(data, dest):
     # i know its kind of a bad way to do this base case but hey it works       
     return 0
 
-#################
-# checkPDA -    #
-#################
+###############################################################################
+# checkPDA                                                                    #
+# Function to check that the json format and PDA is in proper format          #
+# alongside checking if the PDA meets the requirements for the cfg conversion #
+# Arguments: data - input PDA in json format                                  #
+###############################################################################
 def checkPDA(data):
     # print("in convertPDA")
     
@@ -56,7 +62,7 @@ def checkPDA(data):
         print("Error: start_state key is missing")
         sys.exit(1)
     elif "accept_state" not in data:
-        print("Error: accept_states key is missing")
+        print("Error: accept_state key is missing")
         sys.exit(1)
         
     for _states in data['states']:
@@ -150,9 +156,19 @@ def checkPDA(data):
     
     return data
 
-#################
-# locatePairsRec -  #
-#################
+##########################################################################################
+# locatePairsRec                                                                         #
+# Recursive function to check each transition for push/pop or pop/push pairs             #
+# Also generates the cfg varialb and rule for each pair found                            #
+# Arguments: data        - input PDA in json format                                      #
+#            dest        - destination of the currently examined transition              #
+#            origDest    - destination of initial transition being checked               #
+#            origSymbol  - symbol the pair is being made for                             #
+#            origInitial - initial state of initial transition being checked             #
+#            origRead    - read symbol of initial transition being checked               #
+#            rulesList   - list which generated rules are added to for use in makeCFG    #
+#            switch      - toggle whether to do push/pop pairs (0) or pop/push pairs (1) #
+##########################################################################################
 def locatePairsRec(data, dest, origDest, origSymbol, origInitial, origRead, rulesList, switch):
     # recursive case
     for _states in data['states']:
@@ -168,7 +184,7 @@ def locatePairsRec(data, dest, origDest, origSymbol, origInitial, origRead, rule
                     # check if pushed symbol matches current transition's pop symbol
                     if origSymbol == _transitions['pop'] and switch == 0:
                         # push/pop pair found
-                        print(origSymbol + ": " + origInitial + " -> " + origDest + ", " + _states['state'] + " -> " + _transitions['dest'])
+                        print(origSymbol + ": " + origInitial + " -> " + origDest + " (" + origRead + "), " + _states['state'] + " -> " + _transitions['dest'] + " (" + _transitions['read'] + ")")
                         #print("A" + origInitial + _transitions['dest'] + " -> " + origRead + "A" + origDest + _states['state'] + _transitions['read'])
                         
                         _variable = "(A_" + origInitial + "_" + _transitions['dest'] + ")"
@@ -181,14 +197,16 @@ def locatePairsRec(data, dest, origDest, origSymbol, origInitial, origRead, rule
                         }
                         
                         # add rule to list
-                        rulesList['rules'].append(_r)
-                    elif origSymbol == _transitions['push'] and switch == 1:
+                        rulesList.append(_r)
+                        
+                    # check if popped symbol matches current transitions push symbol
+                    if origSymbol == _transitions['push'] and switch == 1:
                         # pop/push pair found
-                        print(origSymbol + ": " + origInitial + " -> " + origDest + ", " + _states['state'] + " -> " + _transitions['dest'])
+                        print(origSymbol + ": " + origInitial + " -> " + origDest + " (" + origRead + "), " + _states['state'] + " -> " + _transitions['dest'] + " (" + _transitions['read'] + ")")
                         #print("A" + origInitial + _transitions['dest'] + " -> " + origRead + "A" + origDest + _states['state'] + _transitions['read'])
                         
-                        _variable = "A_" + origInitial + "_" + _transitions['dest']
-                        _rule = origRead + "A_" + origDest + "_" + _states['state'] + _transitions['read']
+                        _variable = "(A_" + origInitial + "_" + _transitions['dest'] + ")"
+                        _rule = origRead + "(A_" + origDest + "_" + _states['state'] + ")" + _transitions['read']
                         
                         # create rule
                         _r = {
@@ -197,7 +215,7 @@ def locatePairsRec(data, dest, origDest, origSymbol, origInitial, origRead, rule
                         }
                         
                         # add rule to list
-                        rulesList['rules'].append(_r)
+                        rulesList.append(_r)
                     
                     # recursive call the destination of each transition
                     locatePairsRec(data, _transitions['dest'], origDest, origSymbol, origInitial, origRead, rulesList, switch)        
@@ -206,20 +224,20 @@ def locatePairsRec(data, dest, origDest, origSymbol, origInitial, origRead, rule
     # i know its kind of a bad way to do this base case but hey it works (part 2!)
     return 
 
-#################
-# locatePairs -  #
-#################
+#######################################################################
+# locatePairs                                                         #
+# Function to locate the push/pop pairs and pop/push pairs of the PDA #
+# Arguments: data - the PDA in json format                            #
+#######################################################################
 def locatePairs(data):
     #print("in locatePairs")
     
     # initialize pairs list
-    rulesList = {
-        "rules": []
-    }
+    rulesList = []
     
     # these will be done with insane amounts of nested loops. oops!
     # push/pop pairs
-    print("")
+    # print("")
     print("push/pop pairs:")
     for _states in data['states']:
         for _transitions in _states['transitions']:
@@ -265,9 +283,12 @@ def locatePairs(data):
     # return a list of rules
     return rulesList
 
-#################
-# makeCFG -  #
-#################
+##########################################################################
+# makeCFG                                                                #
+# Uses the rules generated by locatePairs to create the json for the CFG #
+# Arguments: data      - the PDA in json format                          #
+#            rulesList - the list of rules generated by locatePairs      #
+##########################################################################
 def makeCFG(data, rulesList):
     # print("in generateRules")
     
@@ -277,7 +298,7 @@ def makeCFG(data, rulesList):
     }
     
     # add rules generated by locatePairs
-    for _rules in rulesList['rules']:
+    for _rules in rulesList:
         _setContinue = 0
         
         # check if variable already exists and append rule to it directly
@@ -296,6 +317,25 @@ def makeCFG(data, rulesList):
                 "rules": [{"rule": _rules['rule']}]
             }
         )
+        
+    # print out the grammar in regular text
+    print("")
+    print("Grammar generated by rules:")
+    
+    for _variables in cfg['variables']:
+        _line = _variables['variable'] + " -> "
+        _count = 0
+        for _rules in _variables['rules']:
+            if _count == 0:
+                _line = _line + _rules['rule']  
+                _count = 1
+            else:  
+                _line = _line + " | " + _rules['rule']
+        
+        print(_line)
+        
+    print("(A_i_i) -> ~                 for all i")
+    print("(A_i_k) -> (A_i_j)(A_j_k)    for all i,j,k")
         
     # add rules (A_p_p) -> ~ for all p
     for _states in data['states']:
@@ -352,14 +392,19 @@ def makeCFG(data, rulesList):
     
     # return a json
     return cfg
-    
+
+#################
+# main function #
+#################
 def main():
+    # check for the correct number of arguments
     if len(sys.argv) < 2:
         print("Error: Please input a json file as an argument")
         sys.exit(1)
         
     file = sys.argv[1]
     
+    # load the json file
     try:
         with open(file) as f:
             data = json.load(f)
