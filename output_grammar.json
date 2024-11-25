@@ -1,2645 +1,1336 @@
 {
     "variables": [
         {
-            "variable": "(A_q1_q6)",
+            "variable": "(A_1_7)",
             "rules": [
                 {
-                    "rule": "~(A_q2_q5)~"
+                    "rule": "~(A_2_6)~"
                 },
                 {
-                    "rule": "(A_q1_q1)(A_q1_q6)"
+                    "rule": "(A_1_1)(A_1_7)"
                 },
                 {
-                    "rule": "(A_q1_q2)(A_q2_q6)"
+                    "rule": "(A_1_2)(A_2_7)"
                 },
                 {
-                    "rule": "(A_q1_q3)(A_q3_q6)"
+                    "rule": "(A_1_3)(A_3_7)"
                 },
                 {
-                    "rule": "(A_q1_q4)(A_q4_q6)"
+                    "rule": "(A_1_4)(A_4_7)"
                 },
                 {
-                    "rule": "(A_q1_q5)(A_q5_q6)"
+                    "rule": "(A_1_5)(A_5_7)"
                 },
                 {
-                    "rule": "(A_q1_q6)(A_q6_q6)"
+                    "rule": "(A_1_6)(A_6_7)"
                 },
                 {
-                    "rule": "(A_q1_q7)(A_q7_q6)"
-                },
-                {
-                    "rule": "(A_q1_q8)(A_q8_q6)"
-                },
-                {
-                    "rule": "(A_q1_q9)(A_q9_q6)"
+                    "rule": "(A_1_7)(A_7_7)"
                 }
             ]
         },
         {
-            "variable": "(A_q2_q5)",
+            "variable": "(A_2_3)",
             "rules": [
                 {
-                    "rule": "a(A_q2_q5)a"
+                    "rule": "a(A_2_3)a"
                 },
                 {
-                    "rule": "a(A_q2_q5)b"
+                    "rule": "b(A_2_3)b"
                 },
                 {
-                    "rule": "b(A_q2_q5)a"
+                    "rule": "(A_2_1)(A_1_3)"
                 },
                 {
-                    "rule": "b(A_q2_q5)b"
+                    "rule": "(A_2_2)(A_2_3)"
                 },
                 {
-                    "rule": "(A_q2_q1)(A_q1_q5)"
+                    "rule": "(A_2_3)(A_3_3)"
                 },
                 {
-                    "rule": "(A_q2_q2)(A_q2_q5)"
+                    "rule": "(A_2_4)(A_4_3)"
                 },
                 {
-                    "rule": "(A_q2_q3)(A_q3_q5)"
+                    "rule": "(A_2_5)(A_5_3)"
                 },
                 {
-                    "rule": "(A_q2_q4)(A_q4_q5)"
+                    "rule": "(A_2_6)(A_6_3)"
                 },
                 {
-                    "rule": "(A_q2_q5)(A_q5_q5)"
-                },
-                {
-                    "rule": "(A_q2_q6)(A_q6_q5)"
-                },
-                {
-                    "rule": "(A_q2_q7)(A_q7_q5)"
-                },
-                {
-                    "rule": "(A_q2_q8)(A_q8_q5)"
-                },
-                {
-                    "rule": "(A_q2_q9)(A_q9_q5)"
+                    "rule": "(A_2_7)(A_7_3)"
                 }
             ]
         },
         {
-            "variable": "(A_q2_q3)",
+            "variable": "(A_2_5)",
             "rules": [
                 {
-                    "rule": "a(A_q7_q7)~"
+                    "rule": "a(A_2_5)a"
                 },
                 {
-                    "rule": "(A_q2_q1)(A_q1_q3)"
+                    "rule": "b(A_2_5)b"
                 },
                 {
-                    "rule": "(A_q2_q2)(A_q2_q3)"
+                    "rule": "(A_2_1)(A_1_5)"
                 },
                 {
-                    "rule": "(A_q2_q3)(A_q3_q3)"
+                    "rule": "(A_2_2)(A_2_5)"
                 },
                 {
-                    "rule": "(A_q2_q4)(A_q4_q3)"
+                    "rule": "(A_2_3)(A_3_5)"
                 },
                 {
-                    "rule": "(A_q2_q5)(A_q5_q3)"
+                    "rule": "(A_2_4)(A_4_5)"
                 },
                 {
-                    "rule": "(A_q2_q6)(A_q6_q3)"
+                    "rule": "(A_2_5)(A_5_5)"
                 },
                 {
-                    "rule": "(A_q2_q7)(A_q7_q3)"
+                    "rule": "(A_2_6)(A_6_5)"
                 },
                 {
-                    "rule": "(A_q2_q8)(A_q8_q3)"
-                },
-                {
-                    "rule": "(A_q2_q9)(A_q9_q3)"
+                    "rule": "(A_2_7)(A_7_5)"
                 }
             ]
         },
         {
-            "variable": "(A_q3_q4)",
+            "variable": "(A_2_4)",
             "rules": [
                 {
-                    "rule": "b(A_q8_q8)~"
+                    "rule": "~(A_3_3)~"
                 },
                 {
-                    "rule": "(A_q3_q1)(A_q1_q4)"
+                    "rule": "(A_2_1)(A_1_4)"
                 },
                 {
-                    "rule": "(A_q3_q2)(A_q2_q4)"
+                    "rule": "(A_2_2)(A_2_4)"
                 },
                 {
-                    "rule": "(A_q3_q3)(A_q3_q4)"
+                    "rule": "(A_2_3)(A_3_4)"
                 },
                 {
-                    "rule": "(A_q3_q4)(A_q4_q4)"
+                    "rule": "(A_2_4)(A_4_4)"
                 },
                 {
-                    "rule": "(A_q3_q5)(A_q5_q4)"
+                    "rule": "(A_2_5)(A_5_4)"
                 },
                 {
-                    "rule": "(A_q3_q6)(A_q6_q4)"
+                    "rule": "(A_2_6)(A_6_4)"
                 },
                 {
-                    "rule": "(A_q3_q7)(A_q7_q4)"
-                },
-                {
-                    "rule": "(A_q3_q8)(A_q8_q4)"
-                },
-                {
-                    "rule": "(A_q3_q9)(A_q9_q4)"
+                    "rule": "(A_2_7)(A_7_4)"
                 }
             ]
         },
         {
-            "variable": "(A_q4_q5)",
+            "variable": "(A_2_6)",
             "rules": [
                 {
-                    "rule": "a(A_q9_q9)~"
+                    "rule": "~(A_3_5)~"
                 },
                 {
-                    "rule": "(A_q4_q1)(A_q1_q5)"
+                    "rule": "(A_2_1)(A_1_6)"
                 },
                 {
-                    "rule": "(A_q4_q2)(A_q2_q5)"
+                    "rule": "(A_2_2)(A_2_6)"
                 },
                 {
-                    "rule": "(A_q4_q3)(A_q3_q5)"
+                    "rule": "(A_2_3)(A_3_6)"
                 },
                 {
-                    "rule": "(A_q4_q4)(A_q4_q5)"
+                    "rule": "(A_2_4)(A_4_6)"
                 },
                 {
-                    "rule": "(A_q4_q5)(A_q5_q5)"
+                    "rule": "(A_2_5)(A_5_6)"
                 },
                 {
-                    "rule": "(A_q4_q6)(A_q6_q5)"
+                    "rule": "(A_2_6)(A_6_6)"
                 },
                 {
-                    "rule": "(A_q4_q7)(A_q7_q5)"
-                },
-                {
-                    "rule": "(A_q4_q8)(A_q8_q5)"
-                },
-                {
-                    "rule": "(A_q4_q9)(A_q9_q5)"
+                    "rule": "(A_2_7)(A_7_6)"
                 }
             ]
         },
         {
-            "variable": "(A_q1_q1)",
+            "variable": "(A_4_5)",
             "rules": [
                 {
-                    "rule": "~"
+                    "rule": "a(A_4_5)a"
                 },
                 {
-                    "rule": "(A_q1_q1)(A_q1_q1)"
+                    "rule": "b(A_4_5)b"
                 },
                 {
-                    "rule": "(A_q1_q2)(A_q2_q1)"
+                    "rule": "(A_4_1)(A_1_5)"
                 },
                 {
-                    "rule": "(A_q1_q3)(A_q3_q1)"
+                    "rule": "(A_4_2)(A_2_5)"
                 },
                 {
-                    "rule": "(A_q1_q4)(A_q4_q1)"
+                    "rule": "(A_4_3)(A_3_5)"
                 },
                 {
-                    "rule": "(A_q1_q5)(A_q5_q1)"
+                    "rule": "(A_4_4)(A_4_5)"
                 },
                 {
-                    "rule": "(A_q1_q6)(A_q6_q1)"
+                    "rule": "(A_4_5)(A_5_5)"
                 },
                 {
-                    "rule": "(A_q1_q7)(A_q7_q1)"
+                    "rule": "(A_4_6)(A_6_5)"
                 },
                 {
-                    "rule": "(A_q1_q8)(A_q8_q1)"
-                },
-                {
-                    "rule": "(A_q1_q9)(A_q9_q1)"
+                    "rule": "(A_4_7)(A_7_5)"
                 }
             ]
         },
         {
-            "variable": "(A_q2_q2)",
+            "variable": "(A_4_6)",
             "rules": [
                 {
-                    "rule": "~"
+                    "rule": "~(A_5_5)~"
                 },
                 {
-                    "rule": "(A_q2_q1)(A_q1_q2)"
+                    "rule": "(A_4_1)(A_1_6)"
                 },
                 {
-                    "rule": "(A_q2_q2)(A_q2_q2)"
+                    "rule": "(A_4_2)(A_2_6)"
                 },
                 {
-                    "rule": "(A_q2_q3)(A_q3_q2)"
+                    "rule": "(A_4_3)(A_3_6)"
                 },
                 {
-                    "rule": "(A_q2_q4)(A_q4_q2)"
+                    "rule": "(A_4_4)(A_4_6)"
                 },
                 {
-                    "rule": "(A_q2_q5)(A_q5_q2)"
+                    "rule": "(A_4_5)(A_5_6)"
                 },
                 {
-                    "rule": "(A_q2_q6)(A_q6_q2)"
+                    "rule": "(A_4_6)(A_6_6)"
                 },
                 {
-                    "rule": "(A_q2_q7)(A_q7_q2)"
-                },
-                {
-                    "rule": "(A_q2_q8)(A_q8_q2)"
-                },
-                {
-                    "rule": "(A_q2_q9)(A_q9_q2)"
+                    "rule": "(A_4_7)(A_7_6)"
                 }
             ]
         },
         {
-            "variable": "(A_q3_q3)",
+            "variable": "(A_3_4)",
             "rules": [
                 {
-                    "rule": "~"
+                    "rule": "a(A_3_4)a"
                 },
                 {
-                    "rule": "(A_q3_q1)(A_q1_q3)"
+                    "rule": "b(A_3_4)b"
                 },
                 {
-                    "rule": "(A_q3_q2)(A_q2_q3)"
+                    "rule": "(A_3_1)(A_1_4)"
                 },
                 {
-                    "rule": "(A_q3_q3)(A_q3_q3)"
+                    "rule": "(A_3_2)(A_2_4)"
                 },
                 {
-                    "rule": "(A_q3_q4)(A_q4_q3)"
+                    "rule": "(A_3_3)(A_3_4)"
                 },
                 {
-                    "rule": "(A_q3_q5)(A_q5_q3)"
+                    "rule": "(A_3_4)(A_4_4)"
                 },
                 {
-                    "rule": "(A_q3_q6)(A_q6_q3)"
+                    "rule": "(A_3_5)(A_5_4)"
                 },
                 {
-                    "rule": "(A_q3_q7)(A_q7_q3)"
+                    "rule": "(A_3_6)(A_6_4)"
                 },
                 {
-                    "rule": "(A_q3_q8)(A_q8_q3)"
-                },
-                {
-                    "rule": "(A_q3_q9)(A_q9_q3)"
+                    "rule": "(A_3_7)(A_7_4)"
                 }
             ]
         },
         {
-            "variable": "(A_q4_q4)",
+            "variable": "(A_3_5)",
+            "rules": [
+                {
+                    "rule": "~(A_4_4)~"
+                },
+                {
+                    "rule": "(A_3_1)(A_1_5)"
+                },
+                {
+                    "rule": "(A_3_2)(A_2_5)"
+                },
+                {
+                    "rule": "(A_3_3)(A_3_5)"
+                },
+                {
+                    "rule": "(A_3_4)(A_4_5)"
+                },
+                {
+                    "rule": "(A_3_5)(A_5_5)"
+                },
+                {
+                    "rule": "(A_3_6)(A_6_5)"
+                },
+                {
+                    "rule": "(A_3_7)(A_7_5)"
+                }
+            ]
+        },
+        {
+            "variable": "(A_1_1)",
             "rules": [
                 {
                     "rule": "~"
                 },
                 {
-                    "rule": "(A_q4_q1)(A_q1_q4)"
+                    "rule": "(A_1_1)(A_1_1)"
                 },
                 {
-                    "rule": "(A_q4_q2)(A_q2_q4)"
+                    "rule": "(A_1_2)(A_2_1)"
                 },
                 {
-                    "rule": "(A_q4_q3)(A_q3_q4)"
+                    "rule": "(A_1_3)(A_3_1)"
                 },
                 {
-                    "rule": "(A_q4_q4)(A_q4_q4)"
+                    "rule": "(A_1_4)(A_4_1)"
                 },
                 {
-                    "rule": "(A_q4_q5)(A_q5_q4)"
+                    "rule": "(A_1_5)(A_5_1)"
                 },
                 {
-                    "rule": "(A_q4_q6)(A_q6_q4)"
+                    "rule": "(A_1_6)(A_6_1)"
                 },
                 {
-                    "rule": "(A_q4_q7)(A_q7_q4)"
-                },
-                {
-                    "rule": "(A_q4_q8)(A_q8_q4)"
-                },
-                {
-                    "rule": "(A_q4_q9)(A_q9_q4)"
+                    "rule": "(A_1_7)(A_7_1)"
                 }
             ]
         },
         {
-            "variable": "(A_q5_q5)",
+            "variable": "(A_2_2)",
             "rules": [
                 {
                     "rule": "~"
                 },
                 {
-                    "rule": "(A_q5_q1)(A_q1_q5)"
+                    "rule": "(A_2_1)(A_1_2)"
                 },
                 {
-                    "rule": "(A_q5_q2)(A_q2_q5)"
+                    "rule": "(A_2_2)(A_2_2)"
                 },
                 {
-                    "rule": "(A_q5_q3)(A_q3_q5)"
+                    "rule": "(A_2_3)(A_3_2)"
                 },
                 {
-                    "rule": "(A_q5_q4)(A_q4_q5)"
+                    "rule": "(A_2_4)(A_4_2)"
                 },
                 {
-                    "rule": "(A_q5_q5)(A_q5_q5)"
+                    "rule": "(A_2_5)(A_5_2)"
                 },
                 {
-                    "rule": "(A_q5_q6)(A_q6_q5)"
+                    "rule": "(A_2_6)(A_6_2)"
                 },
                 {
-                    "rule": "(A_q5_q7)(A_q7_q5)"
-                },
-                {
-                    "rule": "(A_q5_q8)(A_q8_q5)"
-                },
-                {
-                    "rule": "(A_q5_q9)(A_q9_q5)"
+                    "rule": "(A_2_7)(A_7_2)"
                 }
             ]
         },
         {
-            "variable": "(A_q6_q6)",
+            "variable": "(A_3_3)",
             "rules": [
                 {
                     "rule": "~"
                 },
                 {
-                    "rule": "(A_q6_q1)(A_q1_q6)"
+                    "rule": "(A_3_1)(A_1_3)"
                 },
                 {
-                    "rule": "(A_q6_q2)(A_q2_q6)"
+                    "rule": "(A_3_2)(A_2_3)"
                 },
                 {
-                    "rule": "(A_q6_q3)(A_q3_q6)"
+                    "rule": "(A_3_3)(A_3_3)"
                 },
                 {
-                    "rule": "(A_q6_q4)(A_q4_q6)"
+                    "rule": "(A_3_4)(A_4_3)"
                 },
                 {
-                    "rule": "(A_q6_q5)(A_q5_q6)"
+                    "rule": "(A_3_5)(A_5_3)"
                 },
                 {
-                    "rule": "(A_q6_q6)(A_q6_q6)"
+                    "rule": "(A_3_6)(A_6_3)"
                 },
                 {
-                    "rule": "(A_q6_q7)(A_q7_q6)"
-                },
-                {
-                    "rule": "(A_q6_q8)(A_q8_q6)"
-                },
-                {
-                    "rule": "(A_q6_q9)(A_q9_q6)"
+                    "rule": "(A_3_7)(A_7_3)"
                 }
             ]
         },
         {
-            "variable": "(A_q7_q7)",
+            "variable": "(A_4_4)",
             "rules": [
                 {
                     "rule": "~"
                 },
                 {
-                    "rule": "(A_q7_q1)(A_q1_q7)"
+                    "rule": "(A_4_1)(A_1_4)"
                 },
                 {
-                    "rule": "(A_q7_q2)(A_q2_q7)"
+                    "rule": "(A_4_2)(A_2_4)"
                 },
                 {
-                    "rule": "(A_q7_q3)(A_q3_q7)"
+                    "rule": "(A_4_3)(A_3_4)"
                 },
                 {
-                    "rule": "(A_q7_q4)(A_q4_q7)"
+                    "rule": "(A_4_4)(A_4_4)"
                 },
                 {
-                    "rule": "(A_q7_q5)(A_q5_q7)"
+                    "rule": "(A_4_5)(A_5_4)"
                 },
                 {
-                    "rule": "(A_q7_q6)(A_q6_q7)"
+                    "rule": "(A_4_6)(A_6_4)"
                 },
                 {
-                    "rule": "(A_q7_q7)(A_q7_q7)"
-                },
-                {
-                    "rule": "(A_q7_q8)(A_q8_q7)"
-                },
-                {
-                    "rule": "(A_q7_q9)(A_q9_q7)"
+                    "rule": "(A_4_7)(A_7_4)"
                 }
             ]
         },
         {
-            "variable": "(A_q8_q8)",
+            "variable": "(A_5_5)",
             "rules": [
                 {
                     "rule": "~"
                 },
                 {
-                    "rule": "(A_q8_q1)(A_q1_q8)"
+                    "rule": "(A_5_1)(A_1_5)"
                 },
                 {
-                    "rule": "(A_q8_q2)(A_q2_q8)"
+                    "rule": "(A_5_2)(A_2_5)"
                 },
                 {
-                    "rule": "(A_q8_q3)(A_q3_q8)"
+                    "rule": "(A_5_3)(A_3_5)"
                 },
                 {
-                    "rule": "(A_q8_q4)(A_q4_q8)"
+                    "rule": "(A_5_4)(A_4_5)"
                 },
                 {
-                    "rule": "(A_q8_q5)(A_q5_q8)"
+                    "rule": "(A_5_5)(A_5_5)"
                 },
                 {
-                    "rule": "(A_q8_q6)(A_q6_q8)"
+                    "rule": "(A_5_6)(A_6_5)"
                 },
                 {
-                    "rule": "(A_q8_q7)(A_q7_q8)"
-                },
-                {
-                    "rule": "(A_q8_q8)(A_q8_q8)"
-                },
-                {
-                    "rule": "(A_q8_q9)(A_q9_q8)"
+                    "rule": "(A_5_7)(A_7_5)"
                 }
             ]
         },
         {
-            "variable": "(A_q9_q9)",
+            "variable": "(A_6_6)",
             "rules": [
                 {
                     "rule": "~"
                 },
                 {
-                    "rule": "(A_q9_q1)(A_q1_q9)"
+                    "rule": "(A_6_1)(A_1_6)"
                 },
                 {
-                    "rule": "(A_q9_q2)(A_q2_q9)"
+                    "rule": "(A_6_2)(A_2_6)"
                 },
                 {
-                    "rule": "(A_q9_q3)(A_q3_q9)"
+                    "rule": "(A_6_3)(A_3_6)"
                 },
                 {
-                    "rule": "(A_q9_q4)(A_q4_q9)"
+                    "rule": "(A_6_4)(A_4_6)"
                 },
                 {
-                    "rule": "(A_q9_q5)(A_q5_q9)"
+                    "rule": "(A_6_5)(A_5_6)"
                 },
                 {
-                    "rule": "(A_q9_q6)(A_q6_q9)"
+                    "rule": "(A_6_6)(A_6_6)"
                 },
                 {
-                    "rule": "(A_q9_q7)(A_q7_q9)"
-                },
-                {
-                    "rule": "(A_q9_q8)(A_q8_q9)"
-                },
-                {
-                    "rule": "(A_q9_q9)(A_q9_q9)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q1_q2)",
-            "rules": [
-                {
-                    "rule": "(A_q1_q1)(A_q1_q2)"
-                },
-                {
-                    "rule": "(A_q1_q2)(A_q2_q2)"
-                },
-                {
-                    "rule": "(A_q1_q3)(A_q3_q2)"
-                },
-                {
-                    "rule": "(A_q1_q4)(A_q4_q2)"
-                },
-                {
-                    "rule": "(A_q1_q5)(A_q5_q2)"
-                },
-                {
-                    "rule": "(A_q1_q6)(A_q6_q2)"
-                },
-                {
-                    "rule": "(A_q1_q7)(A_q7_q2)"
-                },
-                {
-                    "rule": "(A_q1_q8)(A_q8_q2)"
-                },
-                {
-                    "rule": "(A_q1_q9)(A_q9_q2)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q1_q3)",
-            "rules": [
-                {
-                    "rule": "(A_q1_q1)(A_q1_q3)"
-                },
-                {
-                    "rule": "(A_q1_q2)(A_q2_q3)"
-                },
-                {
-                    "rule": "(A_q1_q3)(A_q3_q3)"
-                },
-                {
-                    "rule": "(A_q1_q4)(A_q4_q3)"
-                },
-                {
-                    "rule": "(A_q1_q5)(A_q5_q3)"
-                },
-                {
-                    "rule": "(A_q1_q6)(A_q6_q3)"
-                },
-                {
-                    "rule": "(A_q1_q7)(A_q7_q3)"
-                },
-                {
-                    "rule": "(A_q1_q8)(A_q8_q3)"
-                },
-                {
-                    "rule": "(A_q1_q9)(A_q9_q3)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q1_q4)",
-            "rules": [
-                {
-                    "rule": "(A_q1_q1)(A_q1_q4)"
-                },
-                {
-                    "rule": "(A_q1_q2)(A_q2_q4)"
-                },
-                {
-                    "rule": "(A_q1_q3)(A_q3_q4)"
-                },
-                {
-                    "rule": "(A_q1_q4)(A_q4_q4)"
-                },
-                {
-                    "rule": "(A_q1_q5)(A_q5_q4)"
-                },
-                {
-                    "rule": "(A_q1_q6)(A_q6_q4)"
-                },
-                {
-                    "rule": "(A_q1_q7)(A_q7_q4)"
-                },
-                {
-                    "rule": "(A_q1_q8)(A_q8_q4)"
-                },
-                {
-                    "rule": "(A_q1_q9)(A_q9_q4)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q1_q5)",
-            "rules": [
-                {
-                    "rule": "(A_q1_q1)(A_q1_q5)"
-                },
-                {
-                    "rule": "(A_q1_q2)(A_q2_q5)"
-                },
-                {
-                    "rule": "(A_q1_q3)(A_q3_q5)"
-                },
-                {
-                    "rule": "(A_q1_q4)(A_q4_q5)"
-                },
-                {
-                    "rule": "(A_q1_q5)(A_q5_q5)"
-                },
-                {
-                    "rule": "(A_q1_q6)(A_q6_q5)"
-                },
-                {
-                    "rule": "(A_q1_q7)(A_q7_q5)"
-                },
-                {
-                    "rule": "(A_q1_q8)(A_q8_q5)"
-                },
-                {
-                    "rule": "(A_q1_q9)(A_q9_q5)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q1_q7)",
-            "rules": [
-                {
-                    "rule": "(A_q1_q1)(A_q1_q7)"
-                },
-                {
-                    "rule": "(A_q1_q2)(A_q2_q7)"
-                },
-                {
-                    "rule": "(A_q1_q3)(A_q3_q7)"
-                },
-                {
-                    "rule": "(A_q1_q4)(A_q4_q7)"
-                },
-                {
-                    "rule": "(A_q1_q5)(A_q5_q7)"
-                },
-                {
-                    "rule": "(A_q1_q6)(A_q6_q7)"
-                },
-                {
-                    "rule": "(A_q1_q7)(A_q7_q7)"
-                },
-                {
-                    "rule": "(A_q1_q8)(A_q8_q7)"
-                },
-                {
-                    "rule": "(A_q1_q9)(A_q9_q7)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q1_q8)",
-            "rules": [
-                {
-                    "rule": "(A_q1_q1)(A_q1_q8)"
-                },
-                {
-                    "rule": "(A_q1_q2)(A_q2_q8)"
-                },
-                {
-                    "rule": "(A_q1_q3)(A_q3_q8)"
-                },
-                {
-                    "rule": "(A_q1_q4)(A_q4_q8)"
-                },
-                {
-                    "rule": "(A_q1_q5)(A_q5_q8)"
-                },
-                {
-                    "rule": "(A_q1_q6)(A_q6_q8)"
-                },
-                {
-                    "rule": "(A_q1_q7)(A_q7_q8)"
-                },
-                {
-                    "rule": "(A_q1_q8)(A_q8_q8)"
-                },
-                {
-                    "rule": "(A_q1_q9)(A_q9_q8)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q1_q9)",
-            "rules": [
-                {
-                    "rule": "(A_q1_q1)(A_q1_q9)"
-                },
-                {
-                    "rule": "(A_q1_q2)(A_q2_q9)"
-                },
-                {
-                    "rule": "(A_q1_q3)(A_q3_q9)"
-                },
-                {
-                    "rule": "(A_q1_q4)(A_q4_q9)"
-                },
-                {
-                    "rule": "(A_q1_q5)(A_q5_q9)"
-                },
-                {
-                    "rule": "(A_q1_q6)(A_q6_q9)"
-                },
-                {
-                    "rule": "(A_q1_q7)(A_q7_q9)"
-                },
-                {
-                    "rule": "(A_q1_q8)(A_q8_q9)"
-                },
-                {
-                    "rule": "(A_q1_q9)(A_q9_q9)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q2_q1)",
-            "rules": [
-                {
-                    "rule": "(A_q2_q1)(A_q1_q1)"
-                },
-                {
-                    "rule": "(A_q2_q2)(A_q2_q1)"
-                },
-                {
-                    "rule": "(A_q2_q3)(A_q3_q1)"
-                },
-                {
-                    "rule": "(A_q2_q4)(A_q4_q1)"
-                },
-                {
-                    "rule": "(A_q2_q5)(A_q5_q1)"
-                },
-                {
-                    "rule": "(A_q2_q6)(A_q6_q1)"
-                },
-                {
-                    "rule": "(A_q2_q7)(A_q7_q1)"
-                },
-                {
-                    "rule": "(A_q2_q8)(A_q8_q1)"
-                },
-                {
-                    "rule": "(A_q2_q9)(A_q9_q1)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q2_q4)",
-            "rules": [
-                {
-                    "rule": "(A_q2_q1)(A_q1_q4)"
-                },
-                {
-                    "rule": "(A_q2_q2)(A_q2_q4)"
-                },
-                {
-                    "rule": "(A_q2_q3)(A_q3_q4)"
-                },
-                {
-                    "rule": "(A_q2_q4)(A_q4_q4)"
-                },
-                {
-                    "rule": "(A_q2_q5)(A_q5_q4)"
-                },
-                {
-                    "rule": "(A_q2_q6)(A_q6_q4)"
-                },
-                {
-                    "rule": "(A_q2_q7)(A_q7_q4)"
-                },
-                {
-                    "rule": "(A_q2_q8)(A_q8_q4)"
-                },
-                {
-                    "rule": "(A_q2_q9)(A_q9_q4)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q2_q6)",
-            "rules": [
-                {
-                    "rule": "(A_q2_q1)(A_q1_q6)"
-                },
-                {
-                    "rule": "(A_q2_q2)(A_q2_q6)"
-                },
-                {
-                    "rule": "(A_q2_q3)(A_q3_q6)"
-                },
-                {
-                    "rule": "(A_q2_q4)(A_q4_q6)"
-                },
-                {
-                    "rule": "(A_q2_q5)(A_q5_q6)"
-                },
-                {
-                    "rule": "(A_q2_q6)(A_q6_q6)"
-                },
-                {
-                    "rule": "(A_q2_q7)(A_q7_q6)"
-                },
-                {
-                    "rule": "(A_q2_q8)(A_q8_q6)"
-                },
-                {
-                    "rule": "(A_q2_q9)(A_q9_q6)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q2_q7)",
-            "rules": [
-                {
-                    "rule": "(A_q2_q1)(A_q1_q7)"
-                },
-                {
-                    "rule": "(A_q2_q2)(A_q2_q7)"
-                },
-                {
-                    "rule": "(A_q2_q3)(A_q3_q7)"
-                },
-                {
-                    "rule": "(A_q2_q4)(A_q4_q7)"
-                },
-                {
-                    "rule": "(A_q2_q5)(A_q5_q7)"
-                },
-                {
-                    "rule": "(A_q2_q6)(A_q6_q7)"
-                },
-                {
-                    "rule": "(A_q2_q7)(A_q7_q7)"
-                },
-                {
-                    "rule": "(A_q2_q8)(A_q8_q7)"
-                },
-                {
-                    "rule": "(A_q2_q9)(A_q9_q7)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q2_q8)",
-            "rules": [
-                {
-                    "rule": "(A_q2_q1)(A_q1_q8)"
-                },
-                {
-                    "rule": "(A_q2_q2)(A_q2_q8)"
-                },
-                {
-                    "rule": "(A_q2_q3)(A_q3_q8)"
-                },
-                {
-                    "rule": "(A_q2_q4)(A_q4_q8)"
-                },
-                {
-                    "rule": "(A_q2_q5)(A_q5_q8)"
-                },
-                {
-                    "rule": "(A_q2_q6)(A_q6_q8)"
-                },
-                {
-                    "rule": "(A_q2_q7)(A_q7_q8)"
-                },
-                {
-                    "rule": "(A_q2_q8)(A_q8_q8)"
-                },
-                {
-                    "rule": "(A_q2_q9)(A_q9_q8)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q2_q9)",
-            "rules": [
-                {
-                    "rule": "(A_q2_q1)(A_q1_q9)"
-                },
-                {
-                    "rule": "(A_q2_q2)(A_q2_q9)"
-                },
-                {
-                    "rule": "(A_q2_q3)(A_q3_q9)"
-                },
-                {
-                    "rule": "(A_q2_q4)(A_q4_q9)"
-                },
-                {
-                    "rule": "(A_q2_q5)(A_q5_q9)"
-                },
-                {
-                    "rule": "(A_q2_q6)(A_q6_q9)"
-                },
-                {
-                    "rule": "(A_q2_q7)(A_q7_q9)"
-                },
-                {
-                    "rule": "(A_q2_q8)(A_q8_q9)"
-                },
-                {
-                    "rule": "(A_q2_q9)(A_q9_q9)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q3_q1)",
-            "rules": [
-                {
-                    "rule": "(A_q3_q1)(A_q1_q1)"
-                },
-                {
-                    "rule": "(A_q3_q2)(A_q2_q1)"
-                },
-                {
-                    "rule": "(A_q3_q3)(A_q3_q1)"
-                },
-                {
-                    "rule": "(A_q3_q4)(A_q4_q1)"
-                },
-                {
-                    "rule": "(A_q3_q5)(A_q5_q1)"
-                },
-                {
-                    "rule": "(A_q3_q6)(A_q6_q1)"
-                },
-                {
-                    "rule": "(A_q3_q7)(A_q7_q1)"
-                },
-                {
-                    "rule": "(A_q3_q8)(A_q8_q1)"
-                },
-                {
-                    "rule": "(A_q3_q9)(A_q9_q1)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q3_q2)",
-            "rules": [
-                {
-                    "rule": "(A_q3_q1)(A_q1_q2)"
-                },
-                {
-                    "rule": "(A_q3_q2)(A_q2_q2)"
-                },
-                {
-                    "rule": "(A_q3_q3)(A_q3_q2)"
-                },
-                {
-                    "rule": "(A_q3_q4)(A_q4_q2)"
-                },
-                {
-                    "rule": "(A_q3_q5)(A_q5_q2)"
-                },
-                {
-                    "rule": "(A_q3_q6)(A_q6_q2)"
-                },
-                {
-                    "rule": "(A_q3_q7)(A_q7_q2)"
-                },
-                {
-                    "rule": "(A_q3_q8)(A_q8_q2)"
-                },
-                {
-                    "rule": "(A_q3_q9)(A_q9_q2)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q3_q5)",
-            "rules": [
-                {
-                    "rule": "(A_q3_q1)(A_q1_q5)"
-                },
-                {
-                    "rule": "(A_q3_q2)(A_q2_q5)"
-                },
-                {
-                    "rule": "(A_q3_q3)(A_q3_q5)"
-                },
-                {
-                    "rule": "(A_q3_q4)(A_q4_q5)"
-                },
-                {
-                    "rule": "(A_q3_q5)(A_q5_q5)"
-                },
-                {
-                    "rule": "(A_q3_q6)(A_q6_q5)"
-                },
-                {
-                    "rule": "(A_q3_q7)(A_q7_q5)"
-                },
-                {
-                    "rule": "(A_q3_q8)(A_q8_q5)"
-                },
-                {
-                    "rule": "(A_q3_q9)(A_q9_q5)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q3_q6)",
-            "rules": [
-                {
-                    "rule": "(A_q3_q1)(A_q1_q6)"
-                },
-                {
-                    "rule": "(A_q3_q2)(A_q2_q6)"
-                },
-                {
-                    "rule": "(A_q3_q3)(A_q3_q6)"
-                },
-                {
-                    "rule": "(A_q3_q4)(A_q4_q6)"
-                },
-                {
-                    "rule": "(A_q3_q5)(A_q5_q6)"
-                },
-                {
-                    "rule": "(A_q3_q6)(A_q6_q6)"
-                },
-                {
-                    "rule": "(A_q3_q7)(A_q7_q6)"
-                },
-                {
-                    "rule": "(A_q3_q8)(A_q8_q6)"
-                },
-                {
-                    "rule": "(A_q3_q9)(A_q9_q6)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q3_q7)",
-            "rules": [
-                {
-                    "rule": "(A_q3_q1)(A_q1_q7)"
-                },
-                {
-                    "rule": "(A_q3_q2)(A_q2_q7)"
-                },
-                {
-                    "rule": "(A_q3_q3)(A_q3_q7)"
-                },
-                {
-                    "rule": "(A_q3_q4)(A_q4_q7)"
-                },
-                {
-                    "rule": "(A_q3_q5)(A_q5_q7)"
-                },
-                {
-                    "rule": "(A_q3_q6)(A_q6_q7)"
-                },
-                {
-                    "rule": "(A_q3_q7)(A_q7_q7)"
-                },
-                {
-                    "rule": "(A_q3_q8)(A_q8_q7)"
-                },
-                {
-                    "rule": "(A_q3_q9)(A_q9_q7)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q3_q8)",
-            "rules": [
-                {
-                    "rule": "(A_q3_q1)(A_q1_q8)"
-                },
-                {
-                    "rule": "(A_q3_q2)(A_q2_q8)"
-                },
-                {
-                    "rule": "(A_q3_q3)(A_q3_q8)"
-                },
-                {
-                    "rule": "(A_q3_q4)(A_q4_q8)"
-                },
-                {
-                    "rule": "(A_q3_q5)(A_q5_q8)"
-                },
-                {
-                    "rule": "(A_q3_q6)(A_q6_q8)"
-                },
-                {
-                    "rule": "(A_q3_q7)(A_q7_q8)"
-                },
-                {
-                    "rule": "(A_q3_q8)(A_q8_q8)"
-                },
-                {
-                    "rule": "(A_q3_q9)(A_q9_q8)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q3_q9)",
-            "rules": [
-                {
-                    "rule": "(A_q3_q1)(A_q1_q9)"
-                },
-                {
-                    "rule": "(A_q3_q2)(A_q2_q9)"
-                },
-                {
-                    "rule": "(A_q3_q3)(A_q3_q9)"
-                },
-                {
-                    "rule": "(A_q3_q4)(A_q4_q9)"
-                },
-                {
-                    "rule": "(A_q3_q5)(A_q5_q9)"
-                },
-                {
-                    "rule": "(A_q3_q6)(A_q6_q9)"
-                },
-                {
-                    "rule": "(A_q3_q7)(A_q7_q9)"
-                },
-                {
-                    "rule": "(A_q3_q8)(A_q8_q9)"
-                },
-                {
-                    "rule": "(A_q3_q9)(A_q9_q9)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q4_q1)",
-            "rules": [
-                {
-                    "rule": "(A_q4_q1)(A_q1_q1)"
-                },
-                {
-                    "rule": "(A_q4_q2)(A_q2_q1)"
-                },
-                {
-                    "rule": "(A_q4_q3)(A_q3_q1)"
-                },
-                {
-                    "rule": "(A_q4_q4)(A_q4_q1)"
-                },
-                {
-                    "rule": "(A_q4_q5)(A_q5_q1)"
-                },
-                {
-                    "rule": "(A_q4_q6)(A_q6_q1)"
-                },
-                {
-                    "rule": "(A_q4_q7)(A_q7_q1)"
-                },
-                {
-                    "rule": "(A_q4_q8)(A_q8_q1)"
-                },
-                {
-                    "rule": "(A_q4_q9)(A_q9_q1)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q4_q2)",
-            "rules": [
-                {
-                    "rule": "(A_q4_q1)(A_q1_q2)"
-                },
-                {
-                    "rule": "(A_q4_q2)(A_q2_q2)"
-                },
-                {
-                    "rule": "(A_q4_q3)(A_q3_q2)"
-                },
-                {
-                    "rule": "(A_q4_q4)(A_q4_q2)"
-                },
-                {
-                    "rule": "(A_q4_q5)(A_q5_q2)"
-                },
-                {
-                    "rule": "(A_q4_q6)(A_q6_q2)"
-                },
-                {
-                    "rule": "(A_q4_q7)(A_q7_q2)"
-                },
-                {
-                    "rule": "(A_q4_q8)(A_q8_q2)"
-                },
-                {
-                    "rule": "(A_q4_q9)(A_q9_q2)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q4_q3)",
-            "rules": [
-                {
-                    "rule": "(A_q4_q1)(A_q1_q3)"
-                },
-                {
-                    "rule": "(A_q4_q2)(A_q2_q3)"
-                },
-                {
-                    "rule": "(A_q4_q3)(A_q3_q3)"
-                },
-                {
-                    "rule": "(A_q4_q4)(A_q4_q3)"
-                },
-                {
-                    "rule": "(A_q4_q5)(A_q5_q3)"
-                },
-                {
-                    "rule": "(A_q4_q6)(A_q6_q3)"
-                },
-                {
-                    "rule": "(A_q4_q7)(A_q7_q3)"
-                },
-                {
-                    "rule": "(A_q4_q8)(A_q8_q3)"
-                },
-                {
-                    "rule": "(A_q4_q9)(A_q9_q3)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q4_q6)",
-            "rules": [
-                {
-                    "rule": "(A_q4_q1)(A_q1_q6)"
-                },
-                {
-                    "rule": "(A_q4_q2)(A_q2_q6)"
-                },
-                {
-                    "rule": "(A_q4_q3)(A_q3_q6)"
-                },
-                {
-                    "rule": "(A_q4_q4)(A_q4_q6)"
-                },
-                {
-                    "rule": "(A_q4_q5)(A_q5_q6)"
-                },
-                {
-                    "rule": "(A_q4_q6)(A_q6_q6)"
-                },
-                {
-                    "rule": "(A_q4_q7)(A_q7_q6)"
-                },
-                {
-                    "rule": "(A_q4_q8)(A_q8_q6)"
-                },
-                {
-                    "rule": "(A_q4_q9)(A_q9_q6)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q4_q7)",
-            "rules": [
-                {
-                    "rule": "(A_q4_q1)(A_q1_q7)"
-                },
-                {
-                    "rule": "(A_q4_q2)(A_q2_q7)"
-                },
-                {
-                    "rule": "(A_q4_q3)(A_q3_q7)"
-                },
-                {
-                    "rule": "(A_q4_q4)(A_q4_q7)"
-                },
-                {
-                    "rule": "(A_q4_q5)(A_q5_q7)"
-                },
-                {
-                    "rule": "(A_q4_q6)(A_q6_q7)"
-                },
-                {
-                    "rule": "(A_q4_q7)(A_q7_q7)"
-                },
-                {
-                    "rule": "(A_q4_q8)(A_q8_q7)"
-                },
-                {
-                    "rule": "(A_q4_q9)(A_q9_q7)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q4_q8)",
-            "rules": [
-                {
-                    "rule": "(A_q4_q1)(A_q1_q8)"
-                },
-                {
-                    "rule": "(A_q4_q2)(A_q2_q8)"
-                },
-                {
-                    "rule": "(A_q4_q3)(A_q3_q8)"
-                },
-                {
-                    "rule": "(A_q4_q4)(A_q4_q8)"
-                },
-                {
-                    "rule": "(A_q4_q5)(A_q5_q8)"
-                },
-                {
-                    "rule": "(A_q4_q6)(A_q6_q8)"
-                },
-                {
-                    "rule": "(A_q4_q7)(A_q7_q8)"
-                },
-                {
-                    "rule": "(A_q4_q8)(A_q8_q8)"
-                },
-                {
-                    "rule": "(A_q4_q9)(A_q9_q8)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q4_q9)",
-            "rules": [
-                {
-                    "rule": "(A_q4_q1)(A_q1_q9)"
-                },
-                {
-                    "rule": "(A_q4_q2)(A_q2_q9)"
-                },
-                {
-                    "rule": "(A_q4_q3)(A_q3_q9)"
-                },
-                {
-                    "rule": "(A_q4_q4)(A_q4_q9)"
-                },
-                {
-                    "rule": "(A_q4_q5)(A_q5_q9)"
-                },
-                {
-                    "rule": "(A_q4_q6)(A_q6_q9)"
-                },
-                {
-                    "rule": "(A_q4_q7)(A_q7_q9)"
-                },
-                {
-                    "rule": "(A_q4_q8)(A_q8_q9)"
-                },
-                {
-                    "rule": "(A_q4_q9)(A_q9_q9)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q5_q1)",
-            "rules": [
-                {
-                    "rule": "(A_q5_q1)(A_q1_q1)"
-                },
-                {
-                    "rule": "(A_q5_q2)(A_q2_q1)"
-                },
-                {
-                    "rule": "(A_q5_q3)(A_q3_q1)"
-                },
-                {
-                    "rule": "(A_q5_q4)(A_q4_q1)"
-                },
-                {
-                    "rule": "(A_q5_q5)(A_q5_q1)"
-                },
-                {
-                    "rule": "(A_q5_q6)(A_q6_q1)"
-                },
-                {
-                    "rule": "(A_q5_q7)(A_q7_q1)"
-                },
-                {
-                    "rule": "(A_q5_q8)(A_q8_q1)"
-                },
-                {
-                    "rule": "(A_q5_q9)(A_q9_q1)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q5_q2)",
-            "rules": [
-                {
-                    "rule": "(A_q5_q1)(A_q1_q2)"
-                },
-                {
-                    "rule": "(A_q5_q2)(A_q2_q2)"
-                },
-                {
-                    "rule": "(A_q5_q3)(A_q3_q2)"
-                },
-                {
-                    "rule": "(A_q5_q4)(A_q4_q2)"
-                },
-                {
-                    "rule": "(A_q5_q5)(A_q5_q2)"
-                },
-                {
-                    "rule": "(A_q5_q6)(A_q6_q2)"
-                },
-                {
-                    "rule": "(A_q5_q7)(A_q7_q2)"
-                },
-                {
-                    "rule": "(A_q5_q8)(A_q8_q2)"
-                },
-                {
-                    "rule": "(A_q5_q9)(A_q9_q2)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q5_q3)",
-            "rules": [
-                {
-                    "rule": "(A_q5_q1)(A_q1_q3)"
-                },
-                {
-                    "rule": "(A_q5_q2)(A_q2_q3)"
-                },
-                {
-                    "rule": "(A_q5_q3)(A_q3_q3)"
-                },
-                {
-                    "rule": "(A_q5_q4)(A_q4_q3)"
-                },
-                {
-                    "rule": "(A_q5_q5)(A_q5_q3)"
-                },
-                {
-                    "rule": "(A_q5_q6)(A_q6_q3)"
-                },
-                {
-                    "rule": "(A_q5_q7)(A_q7_q3)"
-                },
-                {
-                    "rule": "(A_q5_q8)(A_q8_q3)"
-                },
-                {
-                    "rule": "(A_q5_q9)(A_q9_q3)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q5_q4)",
-            "rules": [
-                {
-                    "rule": "(A_q5_q1)(A_q1_q4)"
-                },
-                {
-                    "rule": "(A_q5_q2)(A_q2_q4)"
-                },
-                {
-                    "rule": "(A_q5_q3)(A_q3_q4)"
-                },
-                {
-                    "rule": "(A_q5_q4)(A_q4_q4)"
-                },
-                {
-                    "rule": "(A_q5_q5)(A_q5_q4)"
-                },
-                {
-                    "rule": "(A_q5_q6)(A_q6_q4)"
-                },
-                {
-                    "rule": "(A_q5_q7)(A_q7_q4)"
-                },
-                {
-                    "rule": "(A_q5_q8)(A_q8_q4)"
-                },
-                {
-                    "rule": "(A_q5_q9)(A_q9_q4)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q5_q6)",
-            "rules": [
-                {
-                    "rule": "(A_q5_q1)(A_q1_q6)"
-                },
-                {
-                    "rule": "(A_q5_q2)(A_q2_q6)"
-                },
-                {
-                    "rule": "(A_q5_q3)(A_q3_q6)"
-                },
-                {
-                    "rule": "(A_q5_q4)(A_q4_q6)"
-                },
-                {
-                    "rule": "(A_q5_q5)(A_q5_q6)"
-                },
-                {
-                    "rule": "(A_q5_q6)(A_q6_q6)"
-                },
-                {
-                    "rule": "(A_q5_q7)(A_q7_q6)"
-                },
-                {
-                    "rule": "(A_q5_q8)(A_q8_q6)"
-                },
-                {
-                    "rule": "(A_q5_q9)(A_q9_q6)"
-                }
-            ]
-        },
-        {
-            "variable": "(A_q5_q7)",
-            "rules": [
-                {
-                    "rule": "(A_q5_q1)(A_q1_q7)"
-                },
-                {
-                    "rule": "(A_q5_q2)(A_q2_q7)"
-                },
-                {
-                    "rule": "(A_q5_q3)(A_q3_q7)"
-                },
-                {
-                    "rule": "(A_q5_q4)(A_q4_q7)"
-                },
-                {
-                    "rule": "(A_q5_q5)(A_q5_q7)"
-                },
-                {
-                    "rule": "(A_q5_q6)(A_q6_q7)"
-                },
-                {
-                    "rule": "(A_q5_q7)(A_q7_q7)"
-                },
-                {
-                    "rule": "(A_q5_q8)(A_q8_q7)"
-                },
-                {
-                    "rule": "(A_q5_q9)(A_q9_q7)"
+                    "rule": "(A_6_7)(A_7_6)"
                 }
             ]
         },
         {
-            "variable": "(A_q5_q8)",
+            "variable": "(A_7_7)",
             "rules": [
-                {
-                    "rule": "(A_q5_q1)(A_q1_q8)"
-                },
                 {
-                    "rule": "(A_q5_q2)(A_q2_q8)"
+                    "rule": "~"
                 },
                 {
-                    "rule": "(A_q5_q3)(A_q3_q8)"
+                    "rule": "(A_7_1)(A_1_7)"
                 },
                 {
-                    "rule": "(A_q5_q4)(A_q4_q8)"
+                    "rule": "(A_7_2)(A_2_7)"
                 },
                 {
-                    "rule": "(A_q5_q5)(A_q5_q8)"
+                    "rule": "(A_7_3)(A_3_7)"
                 },
                 {
-                    "rule": "(A_q5_q6)(A_q6_q8)"
+                    "rule": "(A_7_4)(A_4_7)"
                 },
                 {
-                    "rule": "(A_q5_q7)(A_q7_q8)"
+                    "rule": "(A_7_5)(A_5_7)"
                 },
                 {
-                    "rule": "(A_q5_q8)(A_q8_q8)"
+                    "rule": "(A_7_6)(A_6_7)"
                 },
                 {
-                    "rule": "(A_q5_q9)(A_q9_q8)"
+                    "rule": "(A_7_7)(A_7_7)"
                 }
             ]
         },
         {
-            "variable": "(A_q5_q9)",
+            "variable": "(A_1_2)",
             "rules": [
-                {
-                    "rule": "(A_q5_q1)(A_q1_q9)"
-                },
-                {
-                    "rule": "(A_q5_q2)(A_q2_q9)"
-                },
                 {
-                    "rule": "(A_q5_q3)(A_q3_q9)"
+                    "rule": "(A_1_1)(A_1_2)"
                 },
                 {
-                    "rule": "(A_q5_q4)(A_q4_q9)"
+                    "rule": "(A_1_2)(A_2_2)"
                 },
                 {
-                    "rule": "(A_q5_q5)(A_q5_q9)"
+                    "rule": "(A_1_3)(A_3_2)"
                 },
                 {
-                    "rule": "(A_q5_q6)(A_q6_q9)"
+                    "rule": "(A_1_4)(A_4_2)"
                 },
                 {
-                    "rule": "(A_q5_q7)(A_q7_q9)"
+                    "rule": "(A_1_5)(A_5_2)"
                 },
                 {
-                    "rule": "(A_q5_q8)(A_q8_q9)"
+                    "rule": "(A_1_6)(A_6_2)"
                 },
                 {
-                    "rule": "(A_q5_q9)(A_q9_q9)"
+                    "rule": "(A_1_7)(A_7_2)"
                 }
             ]
         },
         {
-            "variable": "(A_q6_q1)",
+            "variable": "(A_1_3)",
             "rules": [
-                {
-                    "rule": "(A_q6_q1)(A_q1_q1)"
-                },
-                {
-                    "rule": "(A_q6_q2)(A_q2_q1)"
-                },
                 {
-                    "rule": "(A_q6_q3)(A_q3_q1)"
+                    "rule": "(A_1_1)(A_1_3)"
                 },
                 {
-                    "rule": "(A_q6_q4)(A_q4_q1)"
+                    "rule": "(A_1_2)(A_2_3)"
                 },
                 {
-                    "rule": "(A_q6_q5)(A_q5_q1)"
+                    "rule": "(A_1_3)(A_3_3)"
                 },
                 {
-                    "rule": "(A_q6_q6)(A_q6_q1)"
+                    "rule": "(A_1_4)(A_4_3)"
                 },
                 {
-                    "rule": "(A_q6_q7)(A_q7_q1)"
+                    "rule": "(A_1_5)(A_5_3)"
                 },
                 {
-                    "rule": "(A_q6_q8)(A_q8_q1)"
+                    "rule": "(A_1_6)(A_6_3)"
                 },
                 {
-                    "rule": "(A_q6_q9)(A_q9_q1)"
+                    "rule": "(A_1_7)(A_7_3)"
                 }
             ]
         },
         {
-            "variable": "(A_q6_q2)",
+            "variable": "(A_1_4)",
             "rules": [
-                {
-                    "rule": "(A_q6_q1)(A_q1_q2)"
-                },
-                {
-                    "rule": "(A_q6_q2)(A_q2_q2)"
-                },
                 {
-                    "rule": "(A_q6_q3)(A_q3_q2)"
+                    "rule": "(A_1_1)(A_1_4)"
                 },
                 {
-                    "rule": "(A_q6_q4)(A_q4_q2)"
+                    "rule": "(A_1_2)(A_2_4)"
                 },
                 {
-                    "rule": "(A_q6_q5)(A_q5_q2)"
+                    "rule": "(A_1_3)(A_3_4)"
                 },
                 {
-                    "rule": "(A_q6_q6)(A_q6_q2)"
+                    "rule": "(A_1_4)(A_4_4)"
                 },
                 {
-                    "rule": "(A_q6_q7)(A_q7_q2)"
+                    "rule": "(A_1_5)(A_5_4)"
                 },
                 {
-                    "rule": "(A_q6_q8)(A_q8_q2)"
+                    "rule": "(A_1_6)(A_6_4)"
                 },
                 {
-                    "rule": "(A_q6_q9)(A_q9_q2)"
+                    "rule": "(A_1_7)(A_7_4)"
                 }
             ]
         },
         {
-            "variable": "(A_q6_q3)",
+            "variable": "(A_1_5)",
             "rules": [
-                {
-                    "rule": "(A_q6_q1)(A_q1_q3)"
-                },
-                {
-                    "rule": "(A_q6_q2)(A_q2_q3)"
-                },
                 {
-                    "rule": "(A_q6_q3)(A_q3_q3)"
+                    "rule": "(A_1_1)(A_1_5)"
                 },
                 {
-                    "rule": "(A_q6_q4)(A_q4_q3)"
+                    "rule": "(A_1_2)(A_2_5)"
                 },
                 {
-                    "rule": "(A_q6_q5)(A_q5_q3)"
+                    "rule": "(A_1_3)(A_3_5)"
                 },
                 {
-                    "rule": "(A_q6_q6)(A_q6_q3)"
+                    "rule": "(A_1_4)(A_4_5)"
                 },
                 {
-                    "rule": "(A_q6_q7)(A_q7_q3)"
+                    "rule": "(A_1_5)(A_5_5)"
                 },
                 {
-                    "rule": "(A_q6_q8)(A_q8_q3)"
+                    "rule": "(A_1_6)(A_6_5)"
                 },
                 {
-                    "rule": "(A_q6_q9)(A_q9_q3)"
+                    "rule": "(A_1_7)(A_7_5)"
                 }
             ]
         },
         {
-            "variable": "(A_q6_q4)",
+            "variable": "(A_1_6)",
             "rules": [
-                {
-                    "rule": "(A_q6_q1)(A_q1_q4)"
-                },
-                {
-                    "rule": "(A_q6_q2)(A_q2_q4)"
-                },
                 {
-                    "rule": "(A_q6_q3)(A_q3_q4)"
+                    "rule": "(A_1_1)(A_1_6)"
                 },
                 {
-                    "rule": "(A_q6_q4)(A_q4_q4)"
+                    "rule": "(A_1_2)(A_2_6)"
                 },
                 {
-                    "rule": "(A_q6_q5)(A_q5_q4)"
+                    "rule": "(A_1_3)(A_3_6)"
                 },
                 {
-                    "rule": "(A_q6_q6)(A_q6_q4)"
+                    "rule": "(A_1_4)(A_4_6)"
                 },
                 {
-                    "rule": "(A_q6_q7)(A_q7_q4)"
+                    "rule": "(A_1_5)(A_5_6)"
                 },
                 {
-                    "rule": "(A_q6_q8)(A_q8_q4)"
+                    "rule": "(A_1_6)(A_6_6)"
                 },
                 {
-                    "rule": "(A_q6_q9)(A_q9_q4)"
+                    "rule": "(A_1_7)(A_7_6)"
                 }
             ]
         },
         {
-            "variable": "(A_q6_q5)",
+            "variable": "(A_2_1)",
             "rules": [
-                {
-                    "rule": "(A_q6_q1)(A_q1_q5)"
-                },
-                {
-                    "rule": "(A_q6_q2)(A_q2_q5)"
-                },
                 {
-                    "rule": "(A_q6_q3)(A_q3_q5)"
+                    "rule": "(A_2_1)(A_1_1)"
                 },
                 {
-                    "rule": "(A_q6_q4)(A_q4_q5)"
+                    "rule": "(A_2_2)(A_2_1)"
                 },
                 {
-                    "rule": "(A_q6_q5)(A_q5_q5)"
+                    "rule": "(A_2_3)(A_3_1)"
                 },
                 {
-                    "rule": "(A_q6_q6)(A_q6_q5)"
+                    "rule": "(A_2_4)(A_4_1)"
                 },
                 {
-                    "rule": "(A_q6_q7)(A_q7_q5)"
+                    "rule": "(A_2_5)(A_5_1)"
                 },
                 {
-                    "rule": "(A_q6_q8)(A_q8_q5)"
+                    "rule": "(A_2_6)(A_6_1)"
                 },
                 {
-                    "rule": "(A_q6_q9)(A_q9_q5)"
+                    "rule": "(A_2_7)(A_7_1)"
                 }
             ]
         },
         {
-            "variable": "(A_q6_q7)",
+            "variable": "(A_2_7)",
             "rules": [
-                {
-                    "rule": "(A_q6_q1)(A_q1_q7)"
-                },
-                {
-                    "rule": "(A_q6_q2)(A_q2_q7)"
-                },
                 {
-                    "rule": "(A_q6_q3)(A_q3_q7)"
+                    "rule": "(A_2_1)(A_1_7)"
                 },
                 {
-                    "rule": "(A_q6_q4)(A_q4_q7)"
+                    "rule": "(A_2_2)(A_2_7)"
                 },
                 {
-                    "rule": "(A_q6_q5)(A_q5_q7)"
+                    "rule": "(A_2_3)(A_3_7)"
                 },
                 {
-                    "rule": "(A_q6_q6)(A_q6_q7)"
+                    "rule": "(A_2_4)(A_4_7)"
                 },
                 {
-                    "rule": "(A_q6_q7)(A_q7_q7)"
+                    "rule": "(A_2_5)(A_5_7)"
                 },
                 {
-                    "rule": "(A_q6_q8)(A_q8_q7)"
+                    "rule": "(A_2_6)(A_6_7)"
                 },
                 {
-                    "rule": "(A_q6_q9)(A_q9_q7)"
+                    "rule": "(A_2_7)(A_7_7)"
                 }
             ]
         },
         {
-            "variable": "(A_q6_q8)",
+            "variable": "(A_3_1)",
             "rules": [
-                {
-                    "rule": "(A_q6_q1)(A_q1_q8)"
-                },
-                {
-                    "rule": "(A_q6_q2)(A_q2_q8)"
-                },
                 {
-                    "rule": "(A_q6_q3)(A_q3_q8)"
+                    "rule": "(A_3_1)(A_1_1)"
                 },
                 {
-                    "rule": "(A_q6_q4)(A_q4_q8)"
+                    "rule": "(A_3_2)(A_2_1)"
                 },
                 {
-                    "rule": "(A_q6_q5)(A_q5_q8)"
+                    "rule": "(A_3_3)(A_3_1)"
                 },
                 {
-                    "rule": "(A_q6_q6)(A_q6_q8)"
+                    "rule": "(A_3_4)(A_4_1)"
                 },
                 {
-                    "rule": "(A_q6_q7)(A_q7_q8)"
+                    "rule": "(A_3_5)(A_5_1)"
                 },
                 {
-                    "rule": "(A_q6_q8)(A_q8_q8)"
+                    "rule": "(A_3_6)(A_6_1)"
                 },
                 {
-                    "rule": "(A_q6_q9)(A_q9_q8)"
+                    "rule": "(A_3_7)(A_7_1)"
                 }
             ]
         },
         {
-            "variable": "(A_q6_q9)",
+            "variable": "(A_3_2)",
             "rules": [
-                {
-                    "rule": "(A_q6_q1)(A_q1_q9)"
-                },
-                {
-                    "rule": "(A_q6_q2)(A_q2_q9)"
-                },
                 {
-                    "rule": "(A_q6_q3)(A_q3_q9)"
+                    "rule": "(A_3_1)(A_1_2)"
                 },
                 {
-                    "rule": "(A_q6_q4)(A_q4_q9)"
+                    "rule": "(A_3_2)(A_2_2)"
                 },
                 {
-                    "rule": "(A_q6_q5)(A_q5_q9)"
+                    "rule": "(A_3_3)(A_3_2)"
                 },
                 {
-                    "rule": "(A_q6_q6)(A_q6_q9)"
+                    "rule": "(A_3_4)(A_4_2)"
                 },
                 {
-                    "rule": "(A_q6_q7)(A_q7_q9)"
+                    "rule": "(A_3_5)(A_5_2)"
                 },
                 {
-                    "rule": "(A_q6_q8)(A_q8_q9)"
+                    "rule": "(A_3_6)(A_6_2)"
                 },
                 {
-                    "rule": "(A_q6_q9)(A_q9_q9)"
+                    "rule": "(A_3_7)(A_7_2)"
                 }
             ]
         },
         {
-            "variable": "(A_q7_q1)",
+            "variable": "(A_3_6)",
             "rules": [
-                {
-                    "rule": "(A_q7_q1)(A_q1_q1)"
-                },
-                {
-                    "rule": "(A_q7_q2)(A_q2_q1)"
-                },
                 {
-                    "rule": "(A_q7_q3)(A_q3_q1)"
+                    "rule": "(A_3_1)(A_1_6)"
                 },
                 {
-                    "rule": "(A_q7_q4)(A_q4_q1)"
+                    "rule": "(A_3_2)(A_2_6)"
                 },
                 {
-                    "rule": "(A_q7_q5)(A_q5_q1)"
+                    "rule": "(A_3_3)(A_3_6)"
                 },
                 {
-                    "rule": "(A_q7_q6)(A_q6_q1)"
+                    "rule": "(A_3_4)(A_4_6)"
                 },
                 {
-                    "rule": "(A_q7_q7)(A_q7_q1)"
+                    "rule": "(A_3_5)(A_5_6)"
                 },
                 {
-                    "rule": "(A_q7_q8)(A_q8_q1)"
+                    "rule": "(A_3_6)(A_6_6)"
                 },
                 {
-                    "rule": "(A_q7_q9)(A_q9_q1)"
+                    "rule": "(A_3_7)(A_7_6)"
                 }
             ]
         },
         {
-            "variable": "(A_q7_q2)",
+            "variable": "(A_3_7)",
             "rules": [
-                {
-                    "rule": "(A_q7_q1)(A_q1_q2)"
-                },
-                {
-                    "rule": "(A_q7_q2)(A_q2_q2)"
-                },
                 {
-                    "rule": "(A_q7_q3)(A_q3_q2)"
+                    "rule": "(A_3_1)(A_1_7)"
                 },
                 {
-                    "rule": "(A_q7_q4)(A_q4_q2)"
+                    "rule": "(A_3_2)(A_2_7)"
                 },
                 {
-                    "rule": "(A_q7_q5)(A_q5_q2)"
+                    "rule": "(A_3_3)(A_3_7)"
                 },
                 {
-                    "rule": "(A_q7_q6)(A_q6_q2)"
+                    "rule": "(A_3_4)(A_4_7)"
                 },
                 {
-                    "rule": "(A_q7_q7)(A_q7_q2)"
+                    "rule": "(A_3_5)(A_5_7)"
                 },
                 {
-                    "rule": "(A_q7_q8)(A_q8_q2)"
+                    "rule": "(A_3_6)(A_6_7)"
                 },
                 {
-                    "rule": "(A_q7_q9)(A_q9_q2)"
+                    "rule": "(A_3_7)(A_7_7)"
                 }
             ]
         },
         {
-            "variable": "(A_q7_q3)",
+            "variable": "(A_4_1)",
             "rules": [
-                {
-                    "rule": "(A_q7_q1)(A_q1_q3)"
-                },
-                {
-                    "rule": "(A_q7_q2)(A_q2_q3)"
-                },
                 {
-                    "rule": "(A_q7_q3)(A_q3_q3)"
+                    "rule": "(A_4_1)(A_1_1)"
                 },
                 {
-                    "rule": "(A_q7_q4)(A_q4_q3)"
+                    "rule": "(A_4_2)(A_2_1)"
                 },
                 {
-                    "rule": "(A_q7_q5)(A_q5_q3)"
+                    "rule": "(A_4_3)(A_3_1)"
                 },
                 {
-                    "rule": "(A_q7_q6)(A_q6_q3)"
+                    "rule": "(A_4_4)(A_4_1)"
                 },
                 {
-                    "rule": "(A_q7_q7)(A_q7_q3)"
+                    "rule": "(A_4_5)(A_5_1)"
                 },
                 {
-                    "rule": "(A_q7_q8)(A_q8_q3)"
+                    "rule": "(A_4_6)(A_6_1)"
                 },
                 {
-                    "rule": "(A_q7_q9)(A_q9_q3)"
+                    "rule": "(A_4_7)(A_7_1)"
                 }
             ]
         },
         {
-            "variable": "(A_q7_q4)",
+            "variable": "(A_4_2)",
             "rules": [
-                {
-                    "rule": "(A_q7_q1)(A_q1_q4)"
-                },
-                {
-                    "rule": "(A_q7_q2)(A_q2_q4)"
-                },
                 {
-                    "rule": "(A_q7_q3)(A_q3_q4)"
+                    "rule": "(A_4_1)(A_1_2)"
                 },
                 {
-                    "rule": "(A_q7_q4)(A_q4_q4)"
+                    "rule": "(A_4_2)(A_2_2)"
                 },
                 {
-                    "rule": "(A_q7_q5)(A_q5_q4)"
+                    "rule": "(A_4_3)(A_3_2)"
                 },
                 {
-                    "rule": "(A_q7_q6)(A_q6_q4)"
+                    "rule": "(A_4_4)(A_4_2)"
                 },
                 {
-                    "rule": "(A_q7_q7)(A_q7_q4)"
+                    "rule": "(A_4_5)(A_5_2)"
                 },
                 {
-                    "rule": "(A_q7_q8)(A_q8_q4)"
+                    "rule": "(A_4_6)(A_6_2)"
                 },
                 {
-                    "rule": "(A_q7_q9)(A_q9_q4)"
+                    "rule": "(A_4_7)(A_7_2)"
                 }
             ]
         },
         {
-            "variable": "(A_q7_q5)",
+            "variable": "(A_4_3)",
             "rules": [
-                {
-                    "rule": "(A_q7_q1)(A_q1_q5)"
-                },
-                {
-                    "rule": "(A_q7_q2)(A_q2_q5)"
-                },
                 {
-                    "rule": "(A_q7_q3)(A_q3_q5)"
+                    "rule": "(A_4_1)(A_1_3)"
                 },
                 {
-                    "rule": "(A_q7_q4)(A_q4_q5)"
+                    "rule": "(A_4_2)(A_2_3)"
                 },
                 {
-                    "rule": "(A_q7_q5)(A_q5_q5)"
+                    "rule": "(A_4_3)(A_3_3)"
                 },
                 {
-                    "rule": "(A_q7_q6)(A_q6_q5)"
+                    "rule": "(A_4_4)(A_4_3)"
                 },
                 {
-                    "rule": "(A_q7_q7)(A_q7_q5)"
+                    "rule": "(A_4_5)(A_5_3)"
                 },
                 {
-                    "rule": "(A_q7_q8)(A_q8_q5)"
+                    "rule": "(A_4_6)(A_6_3)"
                 },
                 {
-                    "rule": "(A_q7_q9)(A_q9_q5)"
+                    "rule": "(A_4_7)(A_7_3)"
                 }
             ]
         },
         {
-            "variable": "(A_q7_q6)",
+            "variable": "(A_4_7)",
             "rules": [
-                {
-                    "rule": "(A_q7_q1)(A_q1_q6)"
-                },
-                {
-                    "rule": "(A_q7_q2)(A_q2_q6)"
-                },
                 {
-                    "rule": "(A_q7_q3)(A_q3_q6)"
+                    "rule": "(A_4_1)(A_1_7)"
                 },
                 {
-                    "rule": "(A_q7_q4)(A_q4_q6)"
+                    "rule": "(A_4_2)(A_2_7)"
                 },
                 {
-                    "rule": "(A_q7_q5)(A_q5_q6)"
+                    "rule": "(A_4_3)(A_3_7)"
                 },
                 {
-                    "rule": "(A_q7_q6)(A_q6_q6)"
+                    "rule": "(A_4_4)(A_4_7)"
                 },
                 {
-                    "rule": "(A_q7_q7)(A_q7_q6)"
+                    "rule": "(A_4_5)(A_5_7)"
                 },
                 {
-                    "rule": "(A_q7_q8)(A_q8_q6)"
+                    "rule": "(A_4_6)(A_6_7)"
                 },
                 {
-                    "rule": "(A_q7_q9)(A_q9_q6)"
+                    "rule": "(A_4_7)(A_7_7)"
                 }
             ]
         },
         {
-            "variable": "(A_q7_q8)",
+            "variable": "(A_5_1)",
             "rules": [
-                {
-                    "rule": "(A_q7_q1)(A_q1_q8)"
-                },
-                {
-                    "rule": "(A_q7_q2)(A_q2_q8)"
-                },
                 {
-                    "rule": "(A_q7_q3)(A_q3_q8)"
+                    "rule": "(A_5_1)(A_1_1)"
                 },
                 {
-                    "rule": "(A_q7_q4)(A_q4_q8)"
+                    "rule": "(A_5_2)(A_2_1)"
                 },
                 {
-                    "rule": "(A_q7_q5)(A_q5_q8)"
+                    "rule": "(A_5_3)(A_3_1)"
                 },
                 {
-                    "rule": "(A_q7_q6)(A_q6_q8)"
+                    "rule": "(A_5_4)(A_4_1)"
                 },
                 {
-                    "rule": "(A_q7_q7)(A_q7_q8)"
+                    "rule": "(A_5_5)(A_5_1)"
                 },
                 {
-                    "rule": "(A_q7_q8)(A_q8_q8)"
+                    "rule": "(A_5_6)(A_6_1)"
                 },
                 {
-                    "rule": "(A_q7_q9)(A_q9_q8)"
+                    "rule": "(A_5_7)(A_7_1)"
                 }
             ]
         },
         {
-            "variable": "(A_q7_q9)",
+            "variable": "(A_5_2)",
             "rules": [
-                {
-                    "rule": "(A_q7_q1)(A_q1_q9)"
-                },
-                {
-                    "rule": "(A_q7_q2)(A_q2_q9)"
-                },
                 {
-                    "rule": "(A_q7_q3)(A_q3_q9)"
+                    "rule": "(A_5_1)(A_1_2)"
                 },
                 {
-                    "rule": "(A_q7_q4)(A_q4_q9)"
+                    "rule": "(A_5_2)(A_2_2)"
                 },
                 {
-                    "rule": "(A_q7_q5)(A_q5_q9)"
+                    "rule": "(A_5_3)(A_3_2)"
                 },
                 {
-                    "rule": "(A_q7_q6)(A_q6_q9)"
+                    "rule": "(A_5_4)(A_4_2)"
                 },
                 {
-                    "rule": "(A_q7_q7)(A_q7_q9)"
+                    "rule": "(A_5_5)(A_5_2)"
                 },
                 {
-                    "rule": "(A_q7_q8)(A_q8_q9)"
+                    "rule": "(A_5_6)(A_6_2)"
                 },
                 {
-                    "rule": "(A_q7_q9)(A_q9_q9)"
+                    "rule": "(A_5_7)(A_7_2)"
                 }
             ]
         },
         {
-            "variable": "(A_q8_q1)",
+            "variable": "(A_5_3)",
             "rules": [
-                {
-                    "rule": "(A_q8_q1)(A_q1_q1)"
-                },
-                {
-                    "rule": "(A_q8_q2)(A_q2_q1)"
-                },
                 {
-                    "rule": "(A_q8_q3)(A_q3_q1)"
+                    "rule": "(A_5_1)(A_1_3)"
                 },
                 {
-                    "rule": "(A_q8_q4)(A_q4_q1)"
+                    "rule": "(A_5_2)(A_2_3)"
                 },
                 {
-                    "rule": "(A_q8_q5)(A_q5_q1)"
+                    "rule": "(A_5_3)(A_3_3)"
                 },
                 {
-                    "rule": "(A_q8_q6)(A_q6_q1)"
+                    "rule": "(A_5_4)(A_4_3)"
                 },
                 {
-                    "rule": "(A_q8_q7)(A_q7_q1)"
+                    "rule": "(A_5_5)(A_5_3)"
                 },
                 {
-                    "rule": "(A_q8_q8)(A_q8_q1)"
+                    "rule": "(A_5_6)(A_6_3)"
                 },
                 {
-                    "rule": "(A_q8_q9)(A_q9_q1)"
+                    "rule": "(A_5_7)(A_7_3)"
                 }
             ]
         },
         {
-            "variable": "(A_q8_q2)",
+            "variable": "(A_5_4)",
             "rules": [
-                {
-                    "rule": "(A_q8_q1)(A_q1_q2)"
-                },
-                {
-                    "rule": "(A_q8_q2)(A_q2_q2)"
-                },
                 {
-                    "rule": "(A_q8_q3)(A_q3_q2)"
+                    "rule": "(A_5_1)(A_1_4)"
                 },
                 {
-                    "rule": "(A_q8_q4)(A_q4_q2)"
+                    "rule": "(A_5_2)(A_2_4)"
                 },
                 {
-                    "rule": "(A_q8_q5)(A_q5_q2)"
+                    "rule": "(A_5_3)(A_3_4)"
                 },
                 {
-                    "rule": "(A_q8_q6)(A_q6_q2)"
+                    "rule": "(A_5_4)(A_4_4)"
                 },
                 {
-                    "rule": "(A_q8_q7)(A_q7_q2)"
+                    "rule": "(A_5_5)(A_5_4)"
                 },
                 {
-                    "rule": "(A_q8_q8)(A_q8_q2)"
+                    "rule": "(A_5_6)(A_6_4)"
                 },
                 {
-                    "rule": "(A_q8_q9)(A_q9_q2)"
+                    "rule": "(A_5_7)(A_7_4)"
                 }
             ]
         },
         {
-            "variable": "(A_q8_q3)",
+            "variable": "(A_5_6)",
             "rules": [
-                {
-                    "rule": "(A_q8_q1)(A_q1_q3)"
-                },
-                {
-                    "rule": "(A_q8_q2)(A_q2_q3)"
-                },
                 {
-                    "rule": "(A_q8_q3)(A_q3_q3)"
+                    "rule": "(A_5_1)(A_1_6)"
                 },
                 {
-                    "rule": "(A_q8_q4)(A_q4_q3)"
+                    "rule": "(A_5_2)(A_2_6)"
                 },
                 {
-                    "rule": "(A_q8_q5)(A_q5_q3)"
+                    "rule": "(A_5_3)(A_3_6)"
                 },
                 {
-                    "rule": "(A_q8_q6)(A_q6_q3)"
+                    "rule": "(A_5_4)(A_4_6)"
                 },
                 {
-                    "rule": "(A_q8_q7)(A_q7_q3)"
+                    "rule": "(A_5_5)(A_5_6)"
                 },
                 {
-                    "rule": "(A_q8_q8)(A_q8_q3)"
+                    "rule": "(A_5_6)(A_6_6)"
                 },
                 {
-                    "rule": "(A_q8_q9)(A_q9_q3)"
+                    "rule": "(A_5_7)(A_7_6)"
                 }
             ]
         },
         {
-            "variable": "(A_q8_q4)",
+            "variable": "(A_5_7)",
             "rules": [
-                {
-                    "rule": "(A_q8_q1)(A_q1_q4)"
-                },
-                {
-                    "rule": "(A_q8_q2)(A_q2_q4)"
-                },
                 {
-                    "rule": "(A_q8_q3)(A_q3_q4)"
+                    "rule": "(A_5_1)(A_1_7)"
                 },
                 {
-                    "rule": "(A_q8_q4)(A_q4_q4)"
+                    "rule": "(A_5_2)(A_2_7)"
                 },
                 {
-                    "rule": "(A_q8_q5)(A_q5_q4)"
+                    "rule": "(A_5_3)(A_3_7)"
                 },
                 {
-                    "rule": "(A_q8_q6)(A_q6_q4)"
+                    "rule": "(A_5_4)(A_4_7)"
                 },
                 {
-                    "rule": "(A_q8_q7)(A_q7_q4)"
+                    "rule": "(A_5_5)(A_5_7)"
                 },
                 {
-                    "rule": "(A_q8_q8)(A_q8_q4)"
+                    "rule": "(A_5_6)(A_6_7)"
                 },
                 {
-                    "rule": "(A_q8_q9)(A_q9_q4)"
+                    "rule": "(A_5_7)(A_7_7)"
                 }
             ]
         },
         {
-            "variable": "(A_q8_q5)",
+            "variable": "(A_6_1)",
             "rules": [
-                {
-                    "rule": "(A_q8_q1)(A_q1_q5)"
-                },
-                {
-                    "rule": "(A_q8_q2)(A_q2_q5)"
-                },
                 {
-                    "rule": "(A_q8_q3)(A_q3_q5)"
+                    "rule": "(A_6_1)(A_1_1)"
                 },
                 {
-                    "rule": "(A_q8_q4)(A_q4_q5)"
+                    "rule": "(A_6_2)(A_2_1)"
                 },
                 {
-                    "rule": "(A_q8_q5)(A_q5_q5)"
+                    "rule": "(A_6_3)(A_3_1)"
                 },
                 {
-                    "rule": "(A_q8_q6)(A_q6_q5)"
+                    "rule": "(A_6_4)(A_4_1)"
                 },
                 {
-                    "rule": "(A_q8_q7)(A_q7_q5)"
+                    "rule": "(A_6_5)(A_5_1)"
                 },
                 {
-                    "rule": "(A_q8_q8)(A_q8_q5)"
+                    "rule": "(A_6_6)(A_6_1)"
                 },
                 {
-                    "rule": "(A_q8_q9)(A_q9_q5)"
+                    "rule": "(A_6_7)(A_7_1)"
                 }
             ]
         },
         {
-            "variable": "(A_q8_q6)",
+            "variable": "(A_6_2)",
             "rules": [
-                {
-                    "rule": "(A_q8_q1)(A_q1_q6)"
-                },
-                {
-                    "rule": "(A_q8_q2)(A_q2_q6)"
-                },
                 {
-                    "rule": "(A_q8_q3)(A_q3_q6)"
+                    "rule": "(A_6_1)(A_1_2)"
                 },
                 {
-                    "rule": "(A_q8_q4)(A_q4_q6)"
+                    "rule": "(A_6_2)(A_2_2)"
                 },
                 {
-                    "rule": "(A_q8_q5)(A_q5_q6)"
+                    "rule": "(A_6_3)(A_3_2)"
                 },
                 {
-                    "rule": "(A_q8_q6)(A_q6_q6)"
+                    "rule": "(A_6_4)(A_4_2)"
                 },
                 {
-                    "rule": "(A_q8_q7)(A_q7_q6)"
+                    "rule": "(A_6_5)(A_5_2)"
                 },
                 {
-                    "rule": "(A_q8_q8)(A_q8_q6)"
+                    "rule": "(A_6_6)(A_6_2)"
                 },
                 {
-                    "rule": "(A_q8_q9)(A_q9_q6)"
+                    "rule": "(A_6_7)(A_7_2)"
                 }
             ]
         },
         {
-            "variable": "(A_q8_q7)",
+            "variable": "(A_6_3)",
             "rules": [
-                {
-                    "rule": "(A_q8_q1)(A_q1_q7)"
-                },
-                {
-                    "rule": "(A_q8_q2)(A_q2_q7)"
-                },
                 {
-                    "rule": "(A_q8_q3)(A_q3_q7)"
+                    "rule": "(A_6_1)(A_1_3)"
                 },
                 {
-                    "rule": "(A_q8_q4)(A_q4_q7)"
+                    "rule": "(A_6_2)(A_2_3)"
                 },
                 {
-                    "rule": "(A_q8_q5)(A_q5_q7)"
+                    "rule": "(A_6_3)(A_3_3)"
                 },
                 {
-                    "rule": "(A_q8_q6)(A_q6_q7)"
+                    "rule": "(A_6_4)(A_4_3)"
                 },
                 {
-                    "rule": "(A_q8_q7)(A_q7_q7)"
+                    "rule": "(A_6_5)(A_5_3)"
                 },
                 {
-                    "rule": "(A_q8_q8)(A_q8_q7)"
+                    "rule": "(A_6_6)(A_6_3)"
                 },
                 {
-                    "rule": "(A_q8_q9)(A_q9_q7)"
+                    "rule": "(A_6_7)(A_7_3)"
                 }
             ]
         },
         {
-            "variable": "(A_q8_q9)",
+            "variable": "(A_6_4)",
             "rules": [
-                {
-                    "rule": "(A_q8_q1)(A_q1_q9)"
-                },
-                {
-                    "rule": "(A_q8_q2)(A_q2_q9)"
-                },
                 {
-                    "rule": "(A_q8_q3)(A_q3_q9)"
+                    "rule": "(A_6_1)(A_1_4)"
                 },
                 {
-                    "rule": "(A_q8_q4)(A_q4_q9)"
+                    "rule": "(A_6_2)(A_2_4)"
                 },
                 {
-                    "rule": "(A_q8_q5)(A_q5_q9)"
+                    "rule": "(A_6_3)(A_3_4)"
                 },
                 {
-                    "rule": "(A_q8_q6)(A_q6_q9)"
+                    "rule": "(A_6_4)(A_4_4)"
                 },
                 {
-                    "rule": "(A_q8_q7)(A_q7_q9)"
+                    "rule": "(A_6_5)(A_5_4)"
                 },
                 {
-                    "rule": "(A_q8_q8)(A_q8_q9)"
+                    "rule": "(A_6_6)(A_6_4)"
                 },
                 {
-                    "rule": "(A_q8_q9)(A_q9_q9)"
+                    "rule": "(A_6_7)(A_7_4)"
                 }
             ]
         },
         {
-            "variable": "(A_q9_q1)",
+            "variable": "(A_6_5)",
             "rules": [
-                {
-                    "rule": "(A_q9_q1)(A_q1_q1)"
-                },
-                {
-                    "rule": "(A_q9_q2)(A_q2_q1)"
-                },
                 {
-                    "rule": "(A_q9_q3)(A_q3_q1)"
+                    "rule": "(A_6_1)(A_1_5)"
                 },
                 {
-                    "rule": "(A_q9_q4)(A_q4_q1)"
+                    "rule": "(A_6_2)(A_2_5)"
                 },
                 {
-                    "rule": "(A_q9_q5)(A_q5_q1)"
+                    "rule": "(A_6_3)(A_3_5)"
                 },
                 {
-                    "rule": "(A_q9_q6)(A_q6_q1)"
+                    "rule": "(A_6_4)(A_4_5)"
                 },
                 {
-                    "rule": "(A_q9_q7)(A_q7_q1)"
+                    "rule": "(A_6_5)(A_5_5)"
                 },
                 {
-                    "rule": "(A_q9_q8)(A_q8_q1)"
+                    "rule": "(A_6_6)(A_6_5)"
                 },
                 {
-                    "rule": "(A_q9_q9)(A_q9_q1)"
+                    "rule": "(A_6_7)(A_7_5)"
                 }
             ]
         },
         {
-            "variable": "(A_q9_q2)",
+            "variable": "(A_6_7)",
             "rules": [
-                {
-                    "rule": "(A_q9_q1)(A_q1_q2)"
-                },
-                {
-                    "rule": "(A_q9_q2)(A_q2_q2)"
-                },
                 {
-                    "rule": "(A_q9_q3)(A_q3_q2)"
+                    "rule": "(A_6_1)(A_1_7)"
                 },
                 {
-                    "rule": "(A_q9_q4)(A_q4_q2)"
+                    "rule": "(A_6_2)(A_2_7)"
                 },
                 {
-                    "rule": "(A_q9_q5)(A_q5_q2)"
+                    "rule": "(A_6_3)(A_3_7)"
                 },
                 {
-                    "rule": "(A_q9_q6)(A_q6_q2)"
+                    "rule": "(A_6_4)(A_4_7)"
                 },
                 {
-                    "rule": "(A_q9_q7)(A_q7_q2)"
+                    "rule": "(A_6_5)(A_5_7)"
                 },
                 {
-                    "rule": "(A_q9_q8)(A_q8_q2)"
+                    "rule": "(A_6_6)(A_6_7)"
                 },
                 {
-                    "rule": "(A_q9_q9)(A_q9_q2)"
+                    "rule": "(A_6_7)(A_7_7)"
                 }
             ]
         },
         {
-            "variable": "(A_q9_q3)",
+            "variable": "(A_7_1)",
             "rules": [
-                {
-                    "rule": "(A_q9_q1)(A_q1_q3)"
-                },
-                {
-                    "rule": "(A_q9_q2)(A_q2_q3)"
-                },
                 {
-                    "rule": "(A_q9_q3)(A_q3_q3)"
+                    "rule": "(A_7_1)(A_1_1)"
                 },
                 {
-                    "rule": "(A_q9_q4)(A_q4_q3)"
+                    "rule": "(A_7_2)(A_2_1)"
                 },
                 {
-                    "rule": "(A_q9_q5)(A_q5_q3)"
+                    "rule": "(A_7_3)(A_3_1)"
                 },
                 {
-                    "rule": "(A_q9_q6)(A_q6_q3)"
+                    "rule": "(A_7_4)(A_4_1)"
                 },
                 {
-                    "rule": "(A_q9_q7)(A_q7_q3)"
+                    "rule": "(A_7_5)(A_5_1)"
                 },
                 {
-                    "rule": "(A_q9_q8)(A_q8_q3)"
+                    "rule": "(A_7_6)(A_6_1)"
                 },
                 {
-                    "rule": "(A_q9_q9)(A_q9_q3)"
+                    "rule": "(A_7_7)(A_7_1)"
                 }
             ]
         },
         {
-            "variable": "(A_q9_q4)",
+            "variable": "(A_7_2)",
             "rules": [
-                {
-                    "rule": "(A_q9_q1)(A_q1_q4)"
-                },
-                {
-                    "rule": "(A_q9_q2)(A_q2_q4)"
-                },
                 {
-                    "rule": "(A_q9_q3)(A_q3_q4)"
+                    "rule": "(A_7_1)(A_1_2)"
                 },
                 {
-                    "rule": "(A_q9_q4)(A_q4_q4)"
+                    "rule": "(A_7_2)(A_2_2)"
                 },
                 {
-                    "rule": "(A_q9_q5)(A_q5_q4)"
+                    "rule": "(A_7_3)(A_3_2)"
                 },
                 {
-                    "rule": "(A_q9_q6)(A_q6_q4)"
+                    "rule": "(A_7_4)(A_4_2)"
                 },
                 {
-                    "rule": "(A_q9_q7)(A_q7_q4)"
+                    "rule": "(A_7_5)(A_5_2)"
                 },
                 {
-                    "rule": "(A_q9_q8)(A_q8_q4)"
+                    "rule": "(A_7_6)(A_6_2)"
                 },
                 {
-                    "rule": "(A_q9_q9)(A_q9_q4)"
+                    "rule": "(A_7_7)(A_7_2)"
                 }
             ]
         },
         {
-            "variable": "(A_q9_q5)",
+            "variable": "(A_7_3)",
             "rules": [
-                {
-                    "rule": "(A_q9_q1)(A_q1_q5)"
-                },
-                {
-                    "rule": "(A_q9_q2)(A_q2_q5)"
-                },
                 {
-                    "rule": "(A_q9_q3)(A_q3_q5)"
+                    "rule": "(A_7_1)(A_1_3)"
                 },
                 {
-                    "rule": "(A_q9_q4)(A_q4_q5)"
+                    "rule": "(A_7_2)(A_2_3)"
                 },
                 {
-                    "rule": "(A_q9_q5)(A_q5_q5)"
+                    "rule": "(A_7_3)(A_3_3)"
                 },
                 {
-                    "rule": "(A_q9_q6)(A_q6_q5)"
+                    "rule": "(A_7_4)(A_4_3)"
                 },
                 {
-                    "rule": "(A_q9_q7)(A_q7_q5)"
+                    "rule": "(A_7_5)(A_5_3)"
                 },
                 {
-                    "rule": "(A_q9_q8)(A_q8_q5)"
+                    "rule": "(A_7_6)(A_6_3)"
                 },
                 {
-                    "rule": "(A_q9_q9)(A_q9_q5)"
+                    "rule": "(A_7_7)(A_7_3)"
                 }
             ]
         },
         {
-            "variable": "(A_q9_q6)",
+            "variable": "(A_7_4)",
             "rules": [
-                {
-                    "rule": "(A_q9_q1)(A_q1_q6)"
-                },
-                {
-                    "rule": "(A_q9_q2)(A_q2_q6)"
-                },
                 {
-                    "rule": "(A_q9_q3)(A_q3_q6)"
+                    "rule": "(A_7_1)(A_1_4)"
                 },
                 {
-                    "rule": "(A_q9_q4)(A_q4_q6)"
+                    "rule": "(A_7_2)(A_2_4)"
                 },
                 {
-                    "rule": "(A_q9_q5)(A_q5_q6)"
+                    "rule": "(A_7_3)(A_3_4)"
                 },
                 {
-                    "rule": "(A_q9_q6)(A_q6_q6)"
+                    "rule": "(A_7_4)(A_4_4)"
                 },
                 {
-                    "rule": "(A_q9_q7)(A_q7_q6)"
+                    "rule": "(A_7_5)(A_5_4)"
                 },
                 {
-                    "rule": "(A_q9_q8)(A_q8_q6)"
+                    "rule": "(A_7_6)(A_6_4)"
                 },
                 {
-                    "rule": "(A_q9_q9)(A_q9_q6)"
+                    "rule": "(A_7_7)(A_7_4)"
                 }
             ]
         },
         {
-            "variable": "(A_q9_q7)",
+            "variable": "(A_7_5)",
             "rules": [
-                {
-                    "rule": "(A_q9_q1)(A_q1_q7)"
-                },
-                {
-                    "rule": "(A_q9_q2)(A_q2_q7)"
-                },
                 {
-                    "rule": "(A_q9_q3)(A_q3_q7)"
+                    "rule": "(A_7_1)(A_1_5)"
                 },
                 {
-                    "rule": "(A_q9_q4)(A_q4_q7)"
+                    "rule": "(A_7_2)(A_2_5)"
                 },
                 {
-                    "rule": "(A_q9_q5)(A_q5_q7)"
+                    "rule": "(A_7_3)(A_3_5)"
                 },
                 {
-                    "rule": "(A_q9_q6)(A_q6_q7)"
+                    "rule": "(A_7_4)(A_4_5)"
                 },
                 {
-                    "rule": "(A_q9_q7)(A_q7_q7)"
+                    "rule": "(A_7_5)(A_5_5)"
                 },
                 {
-                    "rule": "(A_q9_q8)(A_q8_q7)"
+                    "rule": "(A_7_6)(A_6_5)"
                 },
                 {
-                    "rule": "(A_q9_q9)(A_q9_q7)"
+                    "rule": "(A_7_7)(A_7_5)"
                 }
             ]
         },
         {
-            "variable": "(A_q9_q8)",
+            "variable": "(A_7_6)",
             "rules": [
-                {
-                    "rule": "(A_q9_q1)(A_q1_q8)"
-                },
-                {
-                    "rule": "(A_q9_q2)(A_q2_q8)"
-                },
                 {
-                    "rule": "(A_q9_q3)(A_q3_q8)"
+                    "rule": "(A_7_1)(A_1_6)"
                 },
                 {
-                    "rule": "(A_q9_q4)(A_q4_q8)"
+                    "rule": "(A_7_2)(A_2_6)"
                 },
                 {
-                    "rule": "(A_q9_q5)(A_q5_q8)"
+                    "rule": "(A_7_3)(A_3_6)"
                 },
                 {
-                    "rule": "(A_q9_q6)(A_q6_q8)"
+                    "rule": "(A_7_4)(A_4_6)"
                 },
                 {
-                    "rule": "(A_q9_q7)(A_q7_q8)"
+                    "rule": "(A_7_5)(A_5_6)"
                 },
                 {
-                    "rule": "(A_q9_q8)(A_q8_q8)"
+                    "rule": "(A_7_6)(A_6_6)"
                 },
                 {
-                    "rule": "(A_q9_q9)(A_q9_q8)"
+                    "rule": "(A_7_7)(A_7_6)"
                 }
             ]
         }

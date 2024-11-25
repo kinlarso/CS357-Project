@@ -9,6 +9,9 @@
 import json
 import sys
 
+# IMPORTANT: '~' is used to represent empty
+# IMPORTANT: this program does not quite work with PDAs that push/pop multiple symbols at once
+
 ########################################################################################
 # checkPDARec                                                                          #
 # Recursive function to check if PDA has a connection from start state to accept state #
@@ -51,9 +54,6 @@ def checkPDA(data):
     # loop through states
     #    check state name
     #    loop through transitions
-    #        check read, pop, push, dest
-    
-    # IMPORTANT: '~' is used to represent empty
     
     if "states" not in data:
         print("Error: states key is missing")
