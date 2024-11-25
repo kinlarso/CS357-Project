@@ -1,54 +1,72 @@
 { 
     "states": [ 
         {
-            "state":"q1",
+            "state":"1",
             "transitions": [ 
                 {
-                    "read":"ε",
-                    "pop":"ε",
+                    "read":"~",
+                    "pop":"~",
                     "push":"$",
-                    "dest":"q2"
-                }] 
+                    "dest":"2"
+                },
+                {
+                    "read":"~",
+                    "pop":"~",
+                    "push":"$",
+                    "dest":"5"
+                }
+            ] 
         }, 
         {
-            "state":"q2",
+            "state":"2",
             "transitions": [ 
                 {
                     "read":"0",
-                    "pop":"ε",
+                    "pop":"~",
                     "push":"0",
-                    "dest":"q2"
+                    "dest":"2"
                 }, 
                 {
                     "read":"1",
                     "pop":"0",
-                    "push":"ε",
-                    "dest":"q3"
-                }]
-        }, 
-        {"state":"q3",
-        "transitions":[ 
-            {
-                "read":"1",
-                "pop":"0",
-                "push":" ε",
-                "dest":"q3"
-            }, 
-            {
-                "read":"ε",
-                "pop":"$",
-                "push":" ε",
-                "dest":"q4"
-            }] 
+                    "push":"~",
+                    "dest":"3"
+                }
+            ]
         }, 
         {
-            "state":"q4",
+            "state":"3",
+            "transitions":[ 
+                {
+                    "read":"1",
+                    "pop":"0",
+                    "push":"~",
+                    "dest":"3"
+                }, 
+                {
+                    "read":"~",
+                    "pop":"$",
+                    "push":"~",
+                    "dest":"4"
+                }
+            ] 
+        }, 
+        {
+            "state":"4",
             "transitions":[]
+        },
+        {
+            "state":"5",
+            "transitions":[
+                {
+                    "read":"~",
+                    "pop":"$",
+                    "push":"~",
+                    "dest":"4"
+                }
+            ]
         } 
     ], 
-    "start_state":"q1", 
-    "accept_states":[ 
-        {"state":"q1"}, 
-        {"state":"q4"} 
-    ] 
+    "start_state":"1", 
+    "accept_state":"4"
 } 
