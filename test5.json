@@ -3,7 +3,12 @@
         {
             "state":"q0", 
             "transitions":[
-                {"read":"~", "pop":"~", "push":"$", "dest":"q1"}
+                {
+                    "read":"~",
+                    "pop":"~",
+                    "push":"$",
+                    "dest":"q1"
+                }
             ]
         },
         {
